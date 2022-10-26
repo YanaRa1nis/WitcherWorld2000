@@ -1,0 +1,10 @@
+state={
+	id=46
+	name="STATE_46"
+	provinces={
+		1416 1776 1939 1940 2688 3131 3519 3521 4072 4077 4608 5171 5343 5373 6454 6484 6519 6601 6631 6657 6658 6683 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+}

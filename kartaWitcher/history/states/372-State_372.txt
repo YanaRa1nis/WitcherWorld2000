@@ -1,0 +1,10 @@
+state={
+	id=372
+	name="STATE_372"
+	provinces={
+		63 1744 1821 1905 2576 3247 3259 3828 3957 4005 4482 4650 5463 8074 8126 8174 8177 8201 8211 8236 8246 8252 8266 8314 8318 8357 8410 8464 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+}

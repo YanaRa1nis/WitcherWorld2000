@@ -1,0 +1,9 @@
+state={
+	id=443
+	name="STATE_443"
+	provinces={
+		874 1597 2505 3158 3694 4644 4998 5487 5501 9383 9403 9404 9416 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
