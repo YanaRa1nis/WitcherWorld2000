@@ -1,0 +1,10 @@
+state={
+	id=136
+	name="STATE_136"
+	provinces={
+		264 1199 1388 1430 2039 2131 2161 2178 2529 2531 2624 2743 2812 3329 3604 3939 4347 4515 5365 5898 9478 9488 9519 9522 9551 9559 9587 9589 9634 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+}
