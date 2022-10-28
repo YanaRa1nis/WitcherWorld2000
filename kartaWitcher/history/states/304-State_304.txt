@@ -1,10 +1,10 @@
 state={
-	id=80
-	name="STATE_80"
+	id=304
+	name="STATE_304"
 	provinces={
-		650 4489 5098 5897
+		7756 1780
 	}
 	buildings_max_level_factor=1.000
         manpower=1
-        state_category = town
+        state_category = city
 }
