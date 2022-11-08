@@ -703,3 +703,51 @@ SHL = {
 	color = rgb { 51 51 255 }
 	color_ui = rgb { 51 51 255 }
 }
+CTR = {
+	color = rgb { 101 153 249 }
+	color_ui = rgb { 101 153 249 }
+}
+KRK = {
+	color = rgb { 236 200 58 }
+	color_ui = rgb { 236 200 58 }
+}
+BRG = {
+	color = rgb { 77 135 39 }
+	color_ui = rgb { 77 135 39 }
+}
+SKE = {
+	color = rgb { 154 85 166 }
+	color_ui = rgb { 154 85 166 }
+}
+TMR = {
+	color = rgb { 175 183 187 }
+	color_ui = rgb { 175 183 187 }
+}
+RED = {
+	color = rgb { 178 19 41 }
+	color_ui = rgb { 178 19 41 }
+}
+PTF = {
+	color = rgb { 255 172 65 }
+	color_ui = rgb { 255 172 65 }
+}
+MHK = {
+	color = rgb { 166 0 0 }
+	color_ui = rgb { 166 0 0 }
+}
+ARM = {
+	color = rgb { 169 143 106 }
+	color_ui = rgb { 169 143 106 }
+}
+SDN = {
+	color = rgb { 106 162 169 }
+	color_ui = rgb { 106 162 169 }
+}
+DMR = {
+	color = rgb { 247 247 247 }
+	color_ui = rgb { 247 247 247 }
+}
+PNR = {
+	color = rgb { 31 108 178 }
+	color_ui = rgb { 31 108 178 }
+}

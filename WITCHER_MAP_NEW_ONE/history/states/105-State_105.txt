@@ -1,10 +1,29 @@
 state={
 	id=105
 	name="STATE_105"
+	
+	history={
+	owner = SKE
+	buildings = {
+		infrastructure = 6
+		arms_factory = 3
+		industrial_complex = 4
+		air_base = 5
+		
+	}
+	victory_points = {
+		8388 15
+	}
+
+	add_core_of = SKE
+	
+	}
+	
+	
 	provinces={
 		369 1745 3851 4582 8388 8409 8428 
 	}
+	manpower=10000000 
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = rural
+	state_category = large_city
 }

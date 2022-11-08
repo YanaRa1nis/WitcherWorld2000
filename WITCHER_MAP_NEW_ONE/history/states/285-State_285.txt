@@ -1,10 +1,29 @@
 state={
 	id=285
 	name="STATE_285"
+	
+	history={
+	owner = PTF
+	buildings = {
+		infrastructure = 6
+		arms_factory = 3
+		industrial_complex = 4
+		air_base = 5
+		
+	}
+	victory_points = {
+		5902 15
+	}
+
+	add_core_of = PTF
+	
+	}
+	
+	
 	provinces={
 		5902 7607 4267 
 	}
+	manpower=10000000 
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+	state_category = town
 }

@@ -1,0 +1,30 @@
+state={
+	id=415
+	name="STATE_415"
+	
+	history={
+	owner = PNR
+	buildings = {
+		infrastructure = 6
+		arms_factory = 3
+		industrial_complex = 4
+		air_base = 5
+		
+	}
+	victory_points = {
+		4361 0
+	}
+
+	add_core_of = PNR
+	
+	}
+	
+	
+	provinces={
+		4361 8095 1636
+	}
+	manpower=10000000 
+	buildings_max_level_factor=1.000
+	state_category = town
+}
+

@@ -1,10 +1,30 @@
 state={
 	id=307
 	name="STATE_307"
+	
+	history={
+	owner = RED
+	buildings = {
+		infrastructure = 6
+		arms_factory = 3
+		industrial_complex = 4
+		air_base = 5
+		
+	}
+	victory_points = {
+		7892 15
+	}
+
+	add_core_of = RED
+	
+	}
+	
+	
 	provinces={
 		7892
 	}
+	manpower=10000000 
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = city
+	state_category = large_city
 }
+

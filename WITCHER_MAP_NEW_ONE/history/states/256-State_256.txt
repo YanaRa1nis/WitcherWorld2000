@@ -1,10 +1,29 @@
 state={
 	id=256
 	name="STATE_256"
+	
+	history={
+	owner = KRK
+	buildings = {
+		infrastructure = 6
+		arms_factory = 3
+		industrial_complex = 4
+		air_base = 5
+		
+	}
+	victory_points = {
+		8034 15
+	}
+
+	add_core_of = KRK
+	
+	}
+	
+	
 	provinces={
 		8034 2115 8058 8049 3377
 	}
+	manpower=10000000 
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+	state_category = town
 }

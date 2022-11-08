@@ -1,10 +1,29 @@
 state={
 	id=379
 	name="STATE_379"
-	provinces={ 
-	    7021 7040 7022 7057 7041
+	
+	history={
+	owner = RED
+	buildings = {
+		infrastructure = 6
+		arms_factory = 3
+		industrial_complex = 4
+		air_base = 5
+		
 	}
+	victory_points = {
+		7040 15
+	}
+
+	add_core_of = RED
+	
+	}
+	
+	
+	provinces={
+		7021 7040 7022 7057 7041
+	}
+	manpower=10000000 
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+	state_category = town
 }

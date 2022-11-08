@@ -1,0 +1,30 @@
+state={
+	id=413
+	name="STATE_413"
+	
+	history={
+	owner = DMR
+	buildings = {
+		infrastructure = 6
+		arms_factory = 3
+		industrial_complex = 4
+		air_base = 5
+		
+	}
+	victory_points = {
+		8177 15
+	}
+
+	add_core_of = DMR
+	
+	}
+	
+	
+	provinces={
+		1861 8177
+	}
+	manpower=10000000 
+	buildings_max_level_factor=1.000
+	state_category = town
+}
+

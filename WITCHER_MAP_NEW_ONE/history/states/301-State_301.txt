@@ -1,10 +1,29 @@
 state={
 	id=301
 	name="STATE_301"
+	
+	history={
+	owner = TMR
+	buildings = {
+		infrastructure = 6
+		arms_factory = 3
+		industrial_complex = 4
+		air_base = 5
+		
+	}
+	victory_points = {
+		201 15
+	}
+
+	add_core_of = TMR
+	
+	}
+	
+	
 	provinces={
 		201 2476 3490 7832
 	}
+	manpower=10000000 
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+	state_category = town
 }
