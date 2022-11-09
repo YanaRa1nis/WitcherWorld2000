@@ -1,0 +1,25 @@
+state={
+	id=110
+	name="STATE_110"
+	history={
+	owner = TST
+	buildings = {
+		infrastructure = 6
+		arms_factory = 3
+		industrial_complex = 4
+		air_base = 5
+	}
+	victory_points{
+		10763 15
+		}
+	add_core_of = TST
+
+	}
+	
+	provinces={
+		28 685 943 1369 1767 1803 1948 2440 2883 2930 3320 3369 4219 4418 4514 4563 4705 4898 4945 5025 5444 5743 6233 10491 10503 10530 10536 10544 10577 10578 10581 10591 10592 10621 10635 10651 10656 10708 10763 10773 10781 10828 10841 10854 10862 10863 10918 10934 10944 10997 11005 11029 11030 11081 
+	}
+	manpower=10000000 
+	buildings_max_level_factor=1.000
+	state_category = large_city
+}
