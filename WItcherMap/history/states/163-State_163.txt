@@ -1,7 +1,7 @@
 
 state={
-	id=110
-	name="STATE_110"
+	id=163
+	name="STATE_163"
 
 	history={
 		owner = SKE
@@ -14,15 +14,16 @@ state={
 
 		}
 		victory_points {
-			943 15 
+			10536 15 
 		}
 		add_core_of = SKE
 	}
 	manpower=10000000
 	buildings_max_level_factor=1.000
-	state_category=large_city
+	state_category=town
+
 	provinces={
-		10934 10854 943 4898 10863 4219
+		685 1767 2440 5444 10530 10536 10621 10763 
 	}
 
 }
