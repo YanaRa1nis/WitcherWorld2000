@@ -1,6 +1,7 @@
+
 state={
-	id=102
-	name="STATE_102"
+	id=168
+	name="STATE_168"
 
 	history={
 		owner = CTR
@@ -13,16 +14,16 @@ state={
 
 		}
 		victory_points {
-			2503 15 
+			10001 15 
 		}
 		add_core_of = CTR
 	}
 	manpower=10000000
 	buildings_max_level_factor=1.000
-	state_category=large_city
+	state_category=town
 
 	provinces={
-		9879 2848 9868 9820 9920 9935 9890 9996 2503 3759
+		2353 5624 9940 9962 10001 10061 10119 10162 
 	}
 
 }

@@ -1,10 +1,29 @@
+
 state={
 	id=94
 	name="STATE_94"
-	provinces={
-		496 595 2204 2214 2655 2946 4048 4711 5118 5379 6218 9487 9491 9505 9512 9545 9546 9554 9561 9606 9626 9627 9651 9659 9671 9678 9709 
+
+	history={
+		owner = BRG
+		buildings = 
+		{
+			infrastructure = 6
+			arms_factory = 3
+			industrial_complex = 4
+			air_base = 5
+
+		}
+		victory_points {
+			9546 15 
+		}
+		add_core_of = BRG
 	}
+	manpower=10000000
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+	state_category=town
+
+	provinces={
+		2214 2946 6218 9491 9546 
+	}
+
 }

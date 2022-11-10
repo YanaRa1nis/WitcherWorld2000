@@ -8,14 +8,15 @@ CTR = {
 	color = rgb { 101 153 249 }
 	color_ui = rgb { 101 153 249 }
 }
-KRK = {
-	color = rgb { 236 200 58 }
-	color_ui = rgb { 236 200 58 }
-}
 BRG = {
 	color = rgb { 77 135 39 }
 	color_ui = rgb { 77 135 39 }
 }
+KRK = {
+	color = rgb { 236 200 58 }
+	color_ui = rgb { 236 200 58 }
+}
+
 
 TMR = {
 	color = rgb { 175 183 187 }

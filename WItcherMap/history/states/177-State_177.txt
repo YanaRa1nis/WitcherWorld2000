@@ -1,9 +1,10 @@
+
 state={
-	id=102
-	name="STATE_102"
+	id=177
+	name="STATE_177"
 
 	history={
-		owner = CTR
+		owner = BRG
 		buildings = 
 		{
 			infrastructure = 6
@@ -13,16 +14,16 @@ state={
 
 		}
 		victory_points {
-			2503 15 
+			9512 15 
 		}
-		add_core_of = CTR
+		add_core_of = BRG
 	}
 	manpower=10000000
 	buildings_max_level_factor=1.000
-	state_category=large_city
+	state_category=town
 
 	provinces={
-		9879 2848 9868 9820 9920 9935 9890 9996 2503 3759
+		4048 4711 9487 9505 9512 9545 9554 
 	}
 
 }

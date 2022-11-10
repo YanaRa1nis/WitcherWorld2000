@@ -1,7 +1,7 @@
 
 state={
-	id=88
-	name="STATE_88"
+	id=184
+	name="STATE_184"
 
 	history={
 		owner = KRK
@@ -13,16 +13,16 @@ state={
 
 		}
 		victory_points {
-			2359 15 
+			138 15 
 		}
 		add_core_of = KRK
 
 	}
 
 	provinces={
-		2359 2453 2536 3900 4572 5470 9574 9587 9650 9667 9677 
+		138 1902 2649 4694 9233 9273 9319 9365 
 	}
 	manpower=10000000
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=town
 }
