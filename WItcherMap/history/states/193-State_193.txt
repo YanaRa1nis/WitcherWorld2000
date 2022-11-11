@@ -1,7 +1,7 @@
 
 state={
-	id=79
-	name="STATE_79"
+	id=193
+	name="STATE_193"
 	history={
 		owner = TMR
 		buildings = 
@@ -13,7 +13,7 @@ state={
 
 		}
 		victory_points {
-			4902 15 
+			9291 15 
 		}
 		add_core_of = TMR
 	}
@@ -21,8 +21,7 @@ state={
 	buildings_max_level_factor=1.000
 	state_category=town
 	provinces={
-		397 1751 1826 2176 2821 2949 4052 4902 5933 9084 9113 9151 9198 9226 9234 9281 
+		3637 4452 9253 9255 9282 9287 9291 9301 9340 9421 
 	}
-
 
 }
