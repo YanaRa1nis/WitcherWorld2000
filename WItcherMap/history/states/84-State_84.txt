@@ -1,10 +1,26 @@
 state={
 	id=84
 	name="STATE_84"
-	provinces={
-		805 1390 1534 1820 3063 4334 4656 4830 5209 5297 5820 9155 9167 9179 9187 9195 9199 9221 9228 9269 9305 
+	history={
+		owner = SDN
+		buildings = 
+		{
+			infrastructure = 6
+			arms_factory = 3
+			industrial_complex = 4
+			air_base = 5
+
+		}
+		victory_points {
+			9167 20
+		}
+		add_core_of = SDN
 	}
+	manpower=10000000
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+	state_category=town
+	provinces={
+		805 4334 4656
+	}
+
 }

@@ -1,0 +1,27 @@
+
+state={
+	id=224
+	name="STATE_224"
+	history={
+		owner = PTF
+		buildings = 
+		{
+			infrastructure = 6
+			arms_factory = 3
+			industrial_complex = 4
+			air_base = 5
+
+		}
+		victory_points {
+			5084 10
+		}
+		add_core_of = PTF
+	}
+	manpower=10000000
+	buildings_max_level_factor=1.000
+	state_category=town
+	provinces={
+		2412 4576 5084 6161 8556 8646 8688 
+	}
+
+}

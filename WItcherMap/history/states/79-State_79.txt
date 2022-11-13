@@ -13,7 +13,7 @@ state={
 
 		}
 		victory_points {
-			4902 15 
+			4902 35 
 		}
 		add_core_of = TMR
 	}

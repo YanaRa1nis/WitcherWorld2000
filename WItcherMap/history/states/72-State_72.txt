@@ -1,10 +1,26 @@
 state={
 	id=72
 	name="STATE_72"
-	provinces={
-		167 793 800 1188 1590 1859 2008 2311 2412 2492 2551 2937 3088 3428 3438 3482 4348 4576 4913 5084 5398 5487 5806 5915 5958 6161 8556 8641 8642 8646 8676 8682 8688 8710 8718 8719 8752 8781 8791 8798 8821 8838 8839 8874 8888 
+	history={
+		owner = PTF
+		buildings = 
+		{
+			infrastructure = 6
+			arms_factory = 3
+			industrial_complex = 4
+			air_base = 5
+
+		}
+		victory_points {
+			3438 10
+		}
+		add_core_of = PTF
 	}
+	manpower=10000000
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+	state_category=town
+	provinces={
+		1590 3428 3438 4348 5398 5958 8641 8642 
+	}
+
 }

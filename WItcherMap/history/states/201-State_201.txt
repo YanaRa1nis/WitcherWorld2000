@@ -12,8 +12,11 @@ state={
 			air_base = 5
 
 		}
-		victory_points {
-			3297 15 
+		victory_points = {
+			9040 40 
+		}
+		victory_points = {
+			8950 10
 		}
 		add_core_of = TMR
 	}

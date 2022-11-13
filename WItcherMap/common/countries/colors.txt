@@ -22,31 +22,31 @@ TMR = {
 	color = rgb { 175 183 187 }
 	color_ui = rgb { 175 183 187 }
 }
-RED = {
-	color = rgb { 178 19 41 }
-	color_ui = rgb { 178 19 41 }
-}
-PTF = {
-	color = rgb { 255 172 65 }
-	color_ui = rgb { 255 172 65 }
-}
-MHK = {
-	color = rgb { 166 0 0 }
-	color_ui = rgb { 166 0 0 }
-}
 ARM = {
-	color = rgb { 169 143 106 }
-	color_ui = rgb { 169 143 106 }
+	color = rgb { 106 111 136 }
+	color_ui = rgb { 106 111 136 }
+}
+DMR = {
+	color = rgb { 231 130 128 }
+	color_ui = rgb { 231 130 128 }
+}
+PNR = {
+	color = rgb { 161 227 128 }
+	color_ui = rgb { 161 227 128 }
 }
 SDN = {
 	color = rgb { 106 162 169 }
 	color_ui = rgb { 106 162 169 }
 }
-DMR = {
-	color = rgb { 247 247 247 }
-	color_ui = rgb { 247 247 247 }
+PTF = {
+	color = rgb { 255 172 65 }
+	color_ui = rgb { 255 172 65 }
 }
-PNR = {
-	color = rgb { 31 108 178 }
-	color_ui = rgb { 31 108 178 }
+RED = {
+	color = rgb { 178 19 41 }
+	color_ui = rgb { 178 19 41 }
+}
+MHK = {
+	color = rgb { 166 0 0 }
+	color_ui = rgb { 166 0 0 }
 }
