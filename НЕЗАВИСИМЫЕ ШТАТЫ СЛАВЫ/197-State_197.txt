@@ -1,0 +1,27 @@
+
+state={
+	id=197
+	name="STATE_197"
+	history={
+		owner = TMR
+		buildings = 
+		{
+			infrastructure = 6
+			arms_factory = 3
+			industrial_complex = 4
+			air_base = 5
+
+		}
+		victory_points {
+			9102 15 
+		}
+		add_core_of = TMR
+	}
+	manpower=10000000
+	buildings_max_level_factor=1.000
+	state_category=town
+	provinces={
+		2941 3219 4310 6033 9068 9080 9102 9144 9178 
+	}
+
+}

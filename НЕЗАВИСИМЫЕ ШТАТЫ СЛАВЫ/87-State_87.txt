@@ -1,0 +1,27 @@
+state={
+	id=87
+	name="STATE_87"
+	history={
+		owner = ARM
+		buildings = 
+		{
+			infrastructure = 6
+			arms_factory = 3
+			industrial_complex = 4
+			air_base = 5
+
+		}
+		victory_points {
+			1202 0
+		}
+		add_core_of = ARM
+	}
+	manpower=10000000
+	buildings_max_level_factor=1.000
+	state_category=town
+	provinces={
+		1202 2859 5349 9320 9326 9341 9357 9436 9456 
+	}
+
+}
+

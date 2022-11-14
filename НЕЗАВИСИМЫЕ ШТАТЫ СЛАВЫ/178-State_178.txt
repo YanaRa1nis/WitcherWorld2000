@@ -1,0 +1,27 @@
+
+state={
+	id=178
+	name="STATE_178"
+	history={
+		owner = BRG
+		buildings = 
+		{
+			infrastructure = 6
+			arms_factory = 3
+			industrial_complex = 4
+			air_base = 5
+
+		}
+		victory_points {
+			9678 15 
+		}
+		add_core_of = BRG
+	}
+	manpower=10000000
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	provinces={
+		595 2204 5118 9626 9651 9671 9678 9709 
+	}
+
+}

@@ -1,0 +1,27 @@
+
+state={
+	id=187
+	name="STATE_187"
+	history={
+		owner = KRK
+		buildings = 
+		{
+			infrastructure = 6
+			arms_factory = 3
+			industrial_complex = 4
+			air_base = 5
+
+		}
+		victory_points {
+			2019 15 
+		}
+		add_core_of = KRK
+	}
+	manpower=10000000
+	buildings_max_level_factor=1.000
+	state_category=town
+	provinces={
+		2019 4385 4518 5627 9714 9726 9754 9873 
+	}
+
+}

@@ -1,0 +1,29 @@
+
+state={
+	id=103
+	name="STATE_103"
+
+	history={
+		owner = CTR
+		buildings = 
+		{
+			infrastructure = 6
+			arms_factory = 3
+			industrial_complex = 4
+			air_base = 5
+
+		}
+		victory_points {
+			10341 15 
+		}
+		add_core_of = CTR
+	}
+	manpower=10000000
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	provinces={
+		1130 10216 10257 10307 10341 10382 
+	}
+
+}

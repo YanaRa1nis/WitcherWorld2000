@@ -1,0 +1,28 @@
+
+state={
+	id=88
+	name="STATE_88"
+
+	history={
+		owner = KRK
+		buildings = {
+			infrastructure = 6
+			arms_factory = 3
+			industrial_complex = 4
+			air_base = 5
+
+		}
+		victory_points {
+			2536 10 
+		}
+		add_core_of = KRK
+
+	}
+
+	provinces={
+		2359 2453 2536 3900 4572 5470 9574 9587 9650 9667 9677 
+	}
+	manpower=10000000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

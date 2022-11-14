@@ -1,0 +1,26 @@
+state={
+	id=228
+	name="STATE_228"
+	history={
+		owner = MHK
+		buildings = 
+		{
+			infrastructure = 6
+			arms_factory = 3
+			industrial_complex = 4
+			air_base = 5
+
+		}
+		victory_points {
+			4476 30
+		}
+		add_core_of = MHK
+	}
+	manpower=10000000
+	buildings_max_level_factor=1.000
+	state_category=town
+	provinces={
+		2509 4476 
+	}
+
+}
