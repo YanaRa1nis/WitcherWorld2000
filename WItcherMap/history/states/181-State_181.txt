@@ -13,7 +13,7 @@ state={
 
 		}
 		victory_points {
-			9520 15 
+			9520 25
 		}
 		add_core_of = KRK
 	}

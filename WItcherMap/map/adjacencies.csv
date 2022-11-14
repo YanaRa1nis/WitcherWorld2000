@@ -1,2 +1,10 @@
 From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
--1;-1;;-1;-1;-1;-1;-1;-1
+3617;5025;sea;13164;-1;-1;-1;-1;;Otrigg-Trold_1
+3617;1803;sea;13470;-1;-1;-1;-1;;Otrigg-Trold_2
+3681;10491;sea;13164;-1;-1;-1;-1;;Urialla-Trold_1
+5025;3681;sea;13164;-1;-1;-1;-1;;Urialla-Trold_2
+11005;11038;sea;13844;-1;-1;-1;-1;;Hindarsfjall-Hindarri_1
+11005;10945;sea;13844;-1;-1;-1;-1;;Hindarsfjall-Hindarri_2
+28;11074;sea;13887;-1;-1;-1;-1;;Svorlaggi-n.Farro_1
+11029;6104;sea;13887;-1;-1;-1;-1;;Svorlaggi-n.Farro_2
+11029;11121;sea;13887;-1;-1;-1;-1;;Svorlaggi-n.Farro_3

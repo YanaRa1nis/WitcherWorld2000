@@ -14,7 +14,7 @@ state={
 
 		}
 		victory_points {
-			10015 15 
+			10015 30
 		}
 		add_core_of = CTR
 	}

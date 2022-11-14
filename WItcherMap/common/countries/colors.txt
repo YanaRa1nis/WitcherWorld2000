@@ -3,6 +3,10 @@ SKE = {
 	color = rgb { 154 85 166 }
 	color_ui = rgb { 154 85 166 }
 }
+MHK = {
+	color = rgb { 166 0 0 }
+	color_ui = rgb { 166 0 0 }
+}
 
 CTR = {
 	color = rgb { 101 153 249 }
@@ -45,8 +49,4 @@ PTF = {
 RED = {
 	color = rgb { 178 19 41 }
 	color_ui = rgb { 178 19 41 }
-}
-MHK = {
-	color = rgb { 166 0 0 }
-	color_ui = rgb { 166 0 0 }
 }
