@@ -14,7 +14,7 @@ state={
 
 		}
 		victory_points {
-			943 15 
+			943 22 
 		}
 		add_core_of = SKE
 	}
