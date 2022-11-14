@@ -1,9 +1,26 @@
 state={
 	id=297
 	name="STATE_297"
-	provinces={
-		1974 3249 9367 
+	history={
+		owner = RED
+		buildings = 
+		{
+			infrastructure = 6
+			arms_factory = 3
+			industrial_complex = 4
+			air_base = 5
+
+		}
+		victory_points {
+			2029 15
+		}
+		add_core_of = RED
 	}
-	manpower=0
+	manpower=10000000
 	buildings_max_level_factor=1.000
+	state_category=town
+	provinces={
+		2029 7862 7875 7881 7893 7899 7904 
+	}
+
 }

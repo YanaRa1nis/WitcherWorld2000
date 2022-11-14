@@ -1,4 +1,8 @@
 #reload countrycolors
+RED = {
+	color = rgb { 178 19 41 }
+	color_ui = rgb { 178 19 41 }
+}
 SKE = {
 	color = rgb { 154 85 166 }
 	color_ui = rgb { 154 85 166 }
@@ -46,7 +50,4 @@ PTF = {
 	color = rgb { 255 172 65 }
 	color_ui = rgb { 255 172 65 }
 }
-RED = {
-	color = rgb { 178 19 41 }
-	color_ui = rgb { 178 19 41 }
-}
+
