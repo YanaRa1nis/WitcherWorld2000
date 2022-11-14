@@ -1,0 +1,27 @@
+state={
+	id=93
+	name="STATE_93"
+	history={
+		owner = DMR
+		buildings = 
+		{
+			infrastructure = 6
+			arms_factory = 3
+			industrial_complex = 4
+			air_base = 5
+
+		}
+		victory_points {
+			9566 20
+		}
+		add_core_of = DMR
+	}
+	manpower=10000000
+	buildings_max_level_factor=1.000
+	state_category=town
+	provinces={
+		2386 2473 9535 9566 9593 9607 9614 
+	}
+
+}
+

@@ -1,0 +1,27 @@
+
+state={
+	id=183
+	name="STATE_183"
+	history={
+		owner = KRK
+		buildings = 
+		{
+			infrastructure = 6
+			arms_factory = 3
+			industrial_complex = 4
+			air_base = 5
+
+		}
+		victory_points {
+			599 15 
+		}
+		add_core_of = KRK
+	}
+	manpower=10000000
+	buildings_max_level_factor=1.000
+	state_category=town
+	provinces={
+		599 1171 5392 9252 9364 
+	}
+
+}

@@ -1,0 +1,29 @@
+
+state={
+	id=169
+	name="STATE_169"
+
+	history={
+		owner = CTR
+		buildings = 
+		{
+			infrastructure = 6
+			arms_factory = 3
+			industrial_complex = 4
+			air_base = 5
+
+		}
+		victory_points {
+			870 15 
+		}
+		add_core_of = CTR
+	}
+	manpower=10000000
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	provinces={
+		442 870 1444 6152 10321 10358 10398 10414 
+	}
+
+}

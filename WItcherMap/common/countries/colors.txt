@@ -1,0 +1,52 @@
+#reload countrycolors
+SKE = {
+	color = rgb { 154 85 166 }
+	color_ui = rgb { 154 85 166 }
+}
+MHK = {
+	color = rgb { 166 0 0 }
+	color_ui = rgb { 166 0 0 }
+}
+
+CTR = {
+	color = rgb { 101 153 249 }
+	color_ui = rgb { 101 153 249 }
+}
+BRG = {
+	color = rgb { 77 135 39 }
+	color_ui = rgb { 77 135 39 }
+}
+KRK = {
+	color = rgb { 236 200 58 }
+	color_ui = rgb { 236 200 58 }
+}
+
+
+TMR = {
+	color = rgb { 175 183 187 }
+	color_ui = rgb { 175 183 187 }
+}
+ARM = {
+	color = rgb { 106 111 136 }
+	color_ui = rgb { 106 111 136 }
+}
+DMR = {
+	color = rgb { 231 130 128 }
+	color_ui = rgb { 231 130 128 }
+}
+PNR = {
+	color = rgb { 161 227 128 }
+	color_ui = rgb { 161 227 128 }
+}
+SDN = {
+	color = rgb { 106 162 169 }
+	color_ui = rgb { 106 162 169 }
+}
+PTF = {
+	color = rgb { 255 172 65 }
+	color_ui = rgb { 255 172 65 }
+}
+RED = {
+	color = rgb { 178 19 41 }
+	color_ui = rgb { 178 19 41 }
+}

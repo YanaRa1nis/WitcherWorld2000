@@ -1,0 +1,27 @@
+
+state={
+	id=216
+	name="STATE_216"
+	history={
+		owner = SDN
+		buildings = 
+		{
+			infrastructure = 6
+			arms_factory = 3
+			industrial_complex = 4
+			air_base = 5
+
+		}
+		victory_points {
+			5820 20
+		}
+		add_core_of = SDN
+	}
+	manpower=10000000
+	buildings_max_level_factor=1.000
+	state_category=town
+	provinces={
+		5209 5297 4830 5820 1820 9269
+	}
+
+}

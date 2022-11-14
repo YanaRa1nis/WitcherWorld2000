@@ -1,0 +1,29 @@
+
+state={
+	id=175
+	name="STATE_175"
+
+	history={
+		owner = CTR
+		buildings = 
+		{
+			infrastructure = 6
+			arms_factory = 3
+			industrial_complex = 4
+			air_base = 5
+
+		}
+		victory_points {
+			9768 15 
+		}
+		add_core_of = CTR
+	}
+	manpower=10000000
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	provinces={
+		27 722 4215 4792 9641 9688 9689 9741 9768 9821 
+	}
+
+}

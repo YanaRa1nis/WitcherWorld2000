@@ -1,0 +1,29 @@
+
+state={
+	id=161
+	name="STATE_161"
+
+	history={
+		owner = SKE
+		buildings = 
+		{
+			infrastructure = 6
+			arms_factory = 3
+			industrial_complex = 4
+			air_base = 5
+
+		}
+		victory_points {
+			3369 15 
+		}
+		add_core_of = SKE
+	}
+	manpower=10000000
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	provinces={
+		2930 3369 5743 10651 10781 10862 
+	}
+
+}
