@@ -1,9 +1,26 @@
 state={
 	id=305
 	name="STATE_305"
+	history={
+		owner = KVR
+		buildings = 
+		{
+			infrastructure = 6
+			arms_factory = 3
+			industrial_complex = 4
+			air_base = 5
+
+		}
+		victory_points {
+			1207 0
+		}
+		add_core_of = KVR
+	}
+	manpower=10000000
+	buildings_max_level_factor=1.000
+	state_category=town
 	provinces={
 		137 1207 8670 
 	}
-	manpower=0
-	buildings_max_level_factor=1.000
+
 }

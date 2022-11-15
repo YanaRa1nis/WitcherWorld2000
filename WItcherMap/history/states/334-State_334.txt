@@ -1,9 +1,25 @@
 state={
 	id=334
 	name="STATE_334"
+					history={
+		owner = NZR
+		buildings = 
+		{
+			infrastructure = 6
+			arms_factory = 3
+			industrial_complex = 4
+			air_base = 5
+
+		}
+		victory_points {
+			10475 10
+		}
+		add_core_of = NZR
+	}
+	manpower=10000000
+	buildings_max_level_factor=1.000
+	state_category=town
 	provinces={
 		1089 3043 3935 5733 10399 10416 10475 10547 10599 10623 
 	}
-	manpower=0
-	buildings_max_level_factor=1.000
 }
