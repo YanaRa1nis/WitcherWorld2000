@@ -1,9 +1,25 @@
 state={
 	id=246
 	name="STATE_246"
+										history={
+		owner = LIR
+		buildings = 
+		{
+			infrastructure = 6
+			arms_factory = 3
+			industrial_complex = 4
+			air_base = 5
+
+		}
+		victory_points {
+			8823 10
+		}
+		add_core_of = LIR
+	}
+	manpower=10000000
+	buildings_max_level_factor=1.000
+	state_category=town
 	provinces={
 		50 5944 6185 8792 8823 8855 
 	}
-	manpower=0
-	buildings_max_level_factor=1.000
 }

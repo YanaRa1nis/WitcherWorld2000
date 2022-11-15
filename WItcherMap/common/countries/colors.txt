@@ -58,4 +58,23 @@ NZR = {
 	color = rgb { 57 61 108 }
 	color_ui = rgb { 57 61 108 }
 }
-
+TSN = {
+	color = rgb { 53 174 68 }
+	color_ui = rgb { 53 174 68 }
+}
+RIV = {
+	color = rgb { 54 151 221 }
+	color_ui = rgb { 54 151 221 }
+}
+LIR = {
+	color = rgb { 249 178 39 }
+	color_ui = rgb { 249 178 39 }
+}
+AED = {
+	color = rgb { 41 86 248 }
+	color_ui = rgb { 41 86 248 }
+}
+SKU = {
+	color = rgb { 255 230 5 }
+	color_ui = rgb { 255 230 5 }
+}

@@ -1,9 +1,25 @@
 state={
 	id=355
 	name="STATE_355"
+							history={
+		owner = TSN
+		buildings = 
+		{
+			infrastructure = 6
+			arms_factory = 3
+			industrial_complex = 4
+			air_base = 5
+
+		}
+		victory_points {
+			9329 10
+		}
+		add_core_of = TSN
+	}
+	manpower=10000000
+	buildings_max_level_factor=1.000
+	state_category=town
 	provinces={
 		889 1388 5519 9292 9293 9329 9342 9398 
 	}
-	manpower=0
-	buildings_max_level_factor=1.000
 }

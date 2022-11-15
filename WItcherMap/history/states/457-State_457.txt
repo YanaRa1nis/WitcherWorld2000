@@ -1,0 +1,25 @@
+state={
+	id=457
+	name="STATE_457"
+									history={
+		owner = AED
+		buildings = 
+		{
+			infrastructure = 6
+			arms_factory = 3
+			industrial_complex = 4
+			air_base = 5
+
+		}
+		victory_points {
+			8460 10
+		}
+		add_core_of = AED
+	}
+	manpower=10000000
+	buildings_max_level_factor=1.000
+	state_category=town
+	provinces={
+		5752 8460 8492 8515 8550 
+	}
+}

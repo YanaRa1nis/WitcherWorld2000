@@ -1,9 +1,25 @@
 state={
 	id=234
 	name="STATE_234"
+								history={
+		owner = RIV
+		buildings = 
+		{
+			infrastructure = 6
+			arms_factory = 3
+			industrial_complex = 4
+			air_base = 5
+
+		}
+		victory_points {
+			8914  10
+		}
+		add_core_of = RIV
+	}
+	manpower=10000000
+	buildings_max_level_factor=1.000
+	state_category=town
 	provinces={
 		2638 2830 4542 8829 8849 8896 8914 
 	}
-	manpower=0
-	buildings_max_level_factor=1.000
 }
