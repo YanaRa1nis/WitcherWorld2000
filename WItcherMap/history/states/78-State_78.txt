@@ -2,10 +2,25 @@
 state={
 	id=78
 	name="STATE_78"
+																			history={
+		owner = FNP
+		buildings = 
+		{
+			infrastructure = 6
+			arms_factory = 3
+			industrial_complex = 4
+			air_base = 5
+
+		}
+		victory_points {
+			1582 10
+		}
+		add_core_of = FNP
+	}
+	manpower=10000000
+	buildings_max_level_factor=1.000
+	state_category=town
 	provinces={
 		1582 3081 5378 9161 9162 
 	}
-	manpower=1
-	buildings_max_level_factor=1.000
-	state_category=town
 }

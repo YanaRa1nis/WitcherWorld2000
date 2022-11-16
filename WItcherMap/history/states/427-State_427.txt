@@ -1,9 +1,25 @@
 state={
 	id=427
 	name="STATE_427"
+																history={
+		owner = MTN
+		buildings = 
+		{
+			infrastructure = 6
+			arms_factory = 3
+			industrial_complex = 4
+			air_base = 5
+
+		}
+		victory_points {
+			4237 10
+		}
+		add_core_of = MTN
+	}
+	manpower=10000000
+	buildings_max_level_factor=1.000
+	state_category=town
 	provinces={
 		4237 4343 9598 9663 9710 
 	}
-	manpower=0
-	buildings_max_level_factor=1.000
 }

@@ -1,9 +1,25 @@
 state={
 	id=436
 	name="STATE_436"
+																history={
+		owner = GSO
+		buildings = 
+		{
+			infrastructure = 6
+			arms_factory = 3
+			industrial_complex = 4
+			air_base = 5
+
+		}
+		victory_points {
+			4552 10
+		}
+		add_core_of = GSO
+	}
+	manpower=10000000
+	buildings_max_level_factor=1.000
+	state_category=town
 	provinces={
 		4552 5647 9522 9643 9690 
 	}
-	manpower=0
-	buildings_max_level_factor=1.000
 }

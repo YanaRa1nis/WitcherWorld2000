@@ -1,9 +1,25 @@
 state={
 	id=447
 	name="STATE_447"
+																			history={
+		owner = FNP
+		buildings = 
+		{
+			infrastructure = 6
+			arms_factory = 3
+			industrial_complex = 4
+			air_base = 5
+
+		}
+		victory_points {
+			219 10
+		}
+		add_core_of = FNP
+	}
+	manpower=10000000
+	buildings_max_level_factor=1.000
+	state_category=town
 	provinces={
 		219 9132 9189 9213 
 	}
-	manpower=0
-	buildings_max_level_factor=1.000
 }

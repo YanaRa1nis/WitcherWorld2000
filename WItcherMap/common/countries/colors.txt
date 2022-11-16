@@ -8,21 +8,21 @@ SKE = {
 	color_ui = rgb { 154 85 166 }
 }
 MHK = {
-	color = rgb { 166 0 0 }
-	color_ui = rgb { 166 0 0 }
+	color = rgb { 139 32 84 }
+	color_ui = rgb { 139 32 84 }
 }
 
 CTR = {
-	color = rgb { 101 153 249 }
-	color_ui = rgb { 101 153 249 }
+	color = rgb { 52 128 175 }
+	color_ui = rgb { 52 128 175 }
 }
 BRG = {
 	color = rgb { 77 135 39 }
 	color_ui = rgb { 77 135 39 }
 }
 KRK = {
-	color = rgb { 236 200 58 }
-	color_ui = rgb { 236 200 58 }
+	color = rgb { 199 167 39 }
+	color_ui = rgb { 199 167 39 }
 }
 
 
@@ -47,16 +47,16 @@ SDN = {
 	color_ui = rgb { 106 162 169 }
 }
 PTF = {
-	color = rgb { 255 172 65 }
-	color_ui = rgb { 255 172 65 }
+	color = rgb { 257 137 0 }
+	color_ui = rgb { 257 137 0 }
 }
 KVR = {
-	color = rgb { 212 206 192 }
-	color_ui = rgb { 212 206 192 }
+	color = rgb { 252 252 252 }
+	color_ui = rgb { 252 252 252 }
 }
 NZR = {
-	color = rgb { 57 61 108 }
-	color_ui = rgb { 57 61 108 }
+	color = rgb { 86 28 122 }
+	color_ui = rgb { 86 28 122 }
 }
 TSN = {
 	color = rgb { 53 174 68 }
@@ -75,6 +75,18 @@ AED = {
 	color_ui = rgb { 41 86 248 }
 }
 SKU = {
-	color = rgb { 255 230 5 }
-	color_ui = rgb { 255 230 5 }
+	color = rgb { 193 171 8 }
+	color_ui = rgb { 193 171 8 }
+}
+MTN = {
+	color = rgb { 161 71 153 }
+	color_ui = rgb { 161 71 153 }
+}
+GSO = {
+	color = rgb { 134 158 123 }
+	color_ui = rgb { 134 158 123 }
+}
+FNP = {
+	color = rgb { 162 164 202 }
+	color_ui = rgb { 162 164 202 }
 }
