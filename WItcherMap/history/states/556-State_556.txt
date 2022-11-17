@@ -1,9 +1,26 @@
 state={
 	id=556
 	name="STATE_556"
+	history={
+		owner = MHT
+		buildings = 
+		{
+			infrastructure = 6
+			arms_factory = 3
+			industrial_complex = 4
+			air_base = 5
+
+		}
+		victory_points {
+			4559 10 
+		}
+		add_core_of = MHT
+	}
+	manpower=10000000
+	buildings_max_level_factor=1.000
+	state_category=town
 	provinces={
 		4559 9756 9815 9859 9882 9905 
 	}
-	manpower=0
-	buildings_max_level_factor=1.000
+
 }

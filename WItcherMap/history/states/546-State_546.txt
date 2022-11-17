@@ -1,9 +1,26 @@
 state={
 	id=546
 	name="STATE_546"
+	history={
+		owner = EBN
+		buildings = 
+		{
+			infrastructure = 6
+			arms_factory = 3
+			industrial_complex = 4
+			air_base = 5
+
+		}
+		victory_points {
+			1825 15 
+		}
+		add_core_of = EBN
+	}
+	manpower=10000000
+	buildings_max_level_factor=1.000
+	state_category=town
 	provinces={
 		1825 2787 10857 10913 10949 
 	}
-	manpower=0
-	buildings_max_level_factor=1.000
+
 }
