@@ -3,7 +3,7 @@ state={
 	id=187
 	name="STATE_187"
 	history={
-		owner = KRK
+		owner = VRD
 		buildings = 
 		{
 			infrastructure = 6
@@ -15,13 +15,13 @@ state={
 		victory_points {
 			2019 15 
 		}
-		add_core_of = KRK
+		add_core_of = VRD
 	}
 	manpower=10000000
 	buildings_max_level_factor=1.000
 	state_category=town
 	provinces={
-		2019 4385 4518 5627 9714 9726 9754 9873 
+		2019 4385 4518 5627 9714 9726 9754 9873 1673 
 	}
 
 }

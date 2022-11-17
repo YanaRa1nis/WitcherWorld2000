@@ -1,4 +1,4 @@
 graphical_culture = eastern_european_gfx
 graphical_culture_2d = eastern_european_2d
 
-color = { 231 130 128 }
+color = { 146 115 80 }

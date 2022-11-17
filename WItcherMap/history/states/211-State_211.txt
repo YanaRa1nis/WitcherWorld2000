@@ -3,7 +3,7 @@ state={
 	id=211
 	name="STATE_211"
 	history={
-		owner = DMR
+		owner = ARM
 		buildings = 
 		{
 			infrastructure = 6
@@ -15,13 +15,13 @@ state={
 		victory_points {
 			9507 0
 		}
-		add_core_of = DMR
+		add_core_of = ARM
 	}
 	manpower=10000000
 	buildings_max_level_factor=1.000
 	state_category=town
 	provinces={
-		9507 9501 4051 9601 5227 9506
+		9507 9501 4051 9601 5227 9506 9593 2386 
 	}
 
 }

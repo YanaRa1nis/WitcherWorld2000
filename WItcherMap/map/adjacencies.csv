@@ -8,3 +8,8 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 28;11074;sea;13887;-1;-1;-1;-1;;Svorlaggi-n.Farro_1
 11029;6104;sea;13887;-1;-1;-1;-1;;Svorlaggi-n.Farro_2
 11029;11121;sea;13887;-1;-1;-1;-1;;Svorlaggi-n.Farro_3
+4389;14009;sea;13941;-1;-1;-1;-1;;Nazair Islands
+10414;14007;sea;12980;-1;-1;-1;-1;;Nazair Islands Cintra
+5223;14005;sea;13942;-1;-1;-1;-1;;Nazair Small Island
+11112;14004;sea;13764;-1;-1;-1;-1;;Nazair Small Island Toussaint
+3963;14003;sea;13094;-1;-1;-1;-1;;Toussaint Islands

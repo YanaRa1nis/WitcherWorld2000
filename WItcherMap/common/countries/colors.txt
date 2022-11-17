@@ -48,20 +48,20 @@ ARM = {
 	color_ui = rgb { 106 111 136 }
 }
 DMR = {
-	color = rgb { 231 130 128 }
-	color_ui = rgb { 231 130 128 }
+	color = rgb { 146 115 80 }
+	color_ui = rgb { 146 115 80 }
 }
 PNR = {
-	color = rgb { 161 227 128 }
-	color_ui = rgb { 161 227 128 }
+	color = rgb { 88 92 170 }
+	color_ui = rgb { 88 92 170 }
 }
 SDN = {
 	color = rgb { 106 162 169 }
 	color_ui = rgb { 106 162 169 }
 }
 PTF = {
-	color = rgb { 257 137 0 }
-	color_ui = rgb { 257 137 0 }
+	color = rgb { 64 165 139 }
+	color_ui = rgb { 64 165 139 }
 }
 KVR = {
 	color = rgb { 252 252 252 }
@@ -84,8 +84,8 @@ LIR = {
 	color_ui = rgb { 249 178 39 }
 }
 AED = {
-	color = rgb { 41 86 248 }
-	color_ui = rgb { 41 86 248 }
+	color = rgb { 33 60 129 }
+	color_ui = rgb { 33 60 129 }
 }
 SKU = {
 	color = rgb { 193 171 8 }
@@ -122,4 +122,8 @@ VER = {
 SOM = {
 	color = rgb { 107 230 122 }
 	color_ui = rgb { 107 230 122 }
+}
+VRD = {
+	color = rgb { 241 115 0 }
+	color_ui = rgb { 241 115 0 }
 }
