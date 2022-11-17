@@ -2,7 +2,7 @@ state={
 	id=427
 	name="STATE_427"
 																history={
-		owner = MTN
+		owner = MJO
 		buildings = 
 		{
 			infrastructure = 6
@@ -14,7 +14,7 @@ state={
 		victory_points {
 			4237 10
 		}
-		add_core_of = MTN
+		add_core_of = MJO
 	}
 	manpower=10000000
 	buildings_max_level_factor=1.000
