@@ -104,24 +104,24 @@ FNP = {
 	color_ui = rgb { 162 164 202 }
 }
 SAP = {
-	color = rgb { 107 230 122 }
-	color_ui = rgb { 107 230 122 }
+	color = rgb { 39 126 49 }
+	color_ui = rgb { 39 126 49 }
 }
 NOC = {
-	color = rgb { 107 230 122 }
-	color_ui = rgb { 107 230 122 }
+	color = rgb { 39 126 49 }
+	color_ui = rgb { 39 126 49 }
 }
 MJO = {
-	color = rgb { 107 230 122 }
-	color_ui = rgb { 107 230 122 }
+	color = rgb { 39 126 49 }
+	color_ui = rgb { 39 126 49 }
 }
 VER = {
-	color = rgb { 107 230 122 }
-	color_ui = rgb { 107 230 122 }
+	color = rgb { 39 126 49 }
+	color_ui = rgb { 39 126 49 }
 }
 SOM = {
-	color = rgb { 107 230 122 }
-	color_ui = rgb { 107 230 122 }
+	color = rgb { 39 126 49 }
+	color_ui = rgb { 39 126 49 }
 }
 VRD = {
 	color = rgb { 241 115 0 }
