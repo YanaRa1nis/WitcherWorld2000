@@ -47,7 +47,6 @@ WTT_setup_political_struggle = {
 		#606 = {	set_variable = { state_political_support_value = @SMALL_STATE_SUPPORT_VALUE } } # Anhui
 		#607 = {	set_variable = { state_political_support_value = @SMALL_STATE_SUPPORT_VALUE } } # Henan
 		608 = {	set_variable = { state_political_support_value = @BIG_STATE_SUPPORT_VALUE } } # Beijing
-		613 = {	set_variable = { state_political_support_value = @BIG_STATE_SUPPORT_VALUE } } # Shanghai
 		#614 = {	set_variable = { state_political_support_value = @SMALL_STATE_SUPPORT_VALUE } } # Hebei
 			#Warlord capital
 			615 = {	set_variable = { state_political_support_value = @SMALL_STATE_SUPPORT_VALUE } } # Shanxi

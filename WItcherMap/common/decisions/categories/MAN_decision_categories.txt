@@ -9,6 +9,7 @@ MAN_banditry_category = {
 	}
 
 	#visible = { # This doesn't prevent the periodic bandit raids appearing in the section, it just stops you seeing the solution to them. I've put it in the solutions' available = {}
+	#	has_completed_focus = MAN_pacify_the_countryside
 	#}
 }
 
@@ -21,6 +22,7 @@ MAN_war_preparations = {
 	}
 
 	visible = {
+		has_completed_focus = MAN_assertiveness
 	}
 
 }

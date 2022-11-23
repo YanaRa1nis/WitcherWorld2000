@@ -23,6 +23,8 @@ POR_arms_purchases = {
 	}
 	visible = {
 		OR = {
+			has_completed_focus = POR_british_guns
+			has_completed_focus = POR_second_navy_reequipment
 		}
 	}
 }
@@ -45,6 +47,7 @@ POR_naval_blockade = {
 			original_tag = POR
 		}
 		POR = {
+			has_completed_focus = POR_refuse_the_naval_blockade
 		}	
 	}
 }
@@ -85,6 +88,7 @@ POR_monarchist_cause = {
 	}
 	visible = {
 		POR = { 
+			has_completed_focus = POR_a_royal_wedding
 		}
 	}
 }
@@ -96,6 +100,7 @@ POR_prospect_for_resources = {
 		tag = POR
 	}
 	visible = { 
+		has_completed_focus = POR_extraction_industries
 	}
 }
 
@@ -108,6 +113,9 @@ POR_the_spanish_civil_war = {
 	visible = { 
 		SPR_scw_in_progress = yes
 		OR = {
+			has_completed_focus = POR_they_need_our_help
+			has_completed_focus = POR_send_assistance
+			has_completed_focus = POR_join_the_carlist_fight
 		}
 	}
 }

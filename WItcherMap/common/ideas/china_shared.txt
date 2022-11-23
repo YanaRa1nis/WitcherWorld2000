@@ -16,7 +16,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				max_command_power = 5
+				max_command_power = 10
 			}
 		}
 
@@ -157,61 +157,9 @@ ideas = {
 
 	political_advisor = {
 
-	}	
-
-	army_chief = {
-		
-		CHI_alexander_von_falkenhausen = {
-			
-			picture = generic_army_europe_2 
-
-			available = {
-				NOT = { has_global_flag = falkenhausen_recalled }
-			}
-			
-			allowed = {
-				OR = {
-					is_literally_china = yes
-					tag = MAN
-				}
-				has_dlc = "Waking the Tiger"
-			}
-			
-			traits = { army_chief_offensive_2 }
-			
-			ai_will_do = {
-				factor = 2
-			}
-		}
 	}
-
-	air_chief = {
-		
-		CHI_claire_lee_chennault_air_chief = {
-
-			name = claire_lee_chennault
-			
-			picture = CHI_claire_chennault
-
-			available = {
-				NOT = { has_idea = CHI_claire_lee_chennault_air_theorist }
-				NOT = { has_war_with = USA }
-			}
-			
-			allowed = {
-				OR = {
-					is_literally_china = yes
-					tag = MAN
-				}
-				has_dlc = "Waking the Tiger"
-			}
-			cost = 75
-			traits = { air_chief_ground_support_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
+	
+	army_chief = {
 	
 	}
 	
@@ -219,42 +167,17 @@ ideas = {
 		
 
 	}
+	
+	air_chief = {
+	
+	}
 
 	high_command = {
 
 	
 	}
-	
-
 
 	theorist = {
-
-		CHI_claire_lee_chennault_air_theorist = {
-			ledger = air
-			
-			name = claire_lee_chennault
-
-			picture = CHI_claire_chennault		
-			
-			available = {
-				NOT = { has_idea = CHI_claire_lee_chennault_air_chief }
-				NOT = { has_war_with = USA }
-			}
-			
-			allowed = {
-				OR = {
-					is_literally_china = yes
-					tag = MAN
-				}
-				has_dlc = "Waking the Tiger"
-			}
-			cost = 75
-			research_bonus = {
-				air_doctrine = 0.10
-			}
-			
-			traits = { air_warfare_theorist }
-		}
 
 	}
 
@@ -276,7 +199,6 @@ ideas = {
 			}
 
 			available = {
-				controls_state = 613
 			}
 			
 			research_bonus = {
@@ -439,6 +361,7 @@ ideas = {
 			
 			available = {
 				OR = {
+					has_completed_focus = CHI_chinese_panzers
 					has_idea = german_advisors
 				}
 				NOT = {
@@ -461,6 +384,7 @@ ideas = {
 				modifier = { # CHI might lose the advisors, don't want the AI wasting PP
 					factor = 0
 					NOT = {
+						has_completed_focus = CHI_chinese_panzers
 					}
 				}
 			}
@@ -480,6 +404,7 @@ ideas = {
 					limit = {
 						has_dlc = "Waking the Tiger"
 					}
+					has_completed_focus = CHI_camco
 				}
 			}
 
@@ -515,6 +440,7 @@ ideas = {
 					limit = {
 						has_dlc = "Waking the Tiger"
 					}
+					has_completed_focus = CHI_local_fighter_production
 				}
 			}
 
@@ -554,6 +480,7 @@ ideas = {
 			cost = 50
 
 			available = {
+				has_completed_focus = CHI_local_bomber_production
 			}
 
 			allowed = {
@@ -689,7 +616,6 @@ ideas = {
 			picture = generic_electronics_concern_1
 
 			available = {
-				controls_state = 613
 			}
 
 			allowed = {

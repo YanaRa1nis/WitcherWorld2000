@@ -5,7 +5,10 @@ MTG_naval_treaties = {
 			
 	
 		available = {
-			threat > 0.2
+			OR = {
+				threat > 0.2
+				has_global_flag = MTG_second_london_conference
+			}
 		}
 	
 		cost = 150
@@ -86,13 +89,19 @@ MTG_naval_treaties = {
 			
 	
 		available = {
-			threat > 0.2
+			OR = {
+				threat > 0.2
+				has_global_flag = MTG_second_london_conference
+			}
 		}
 	
 		cost = 25
 		fire_only_once = yes
 		ai_will_do = {
 			factor = 1
+			
+			
+			
 		}
 	
 		visible = {
@@ -172,6 +181,10 @@ MTG_naval_treaties = {
 	
 		cost = 50
 		fire_only_once = yes
+		ai_will_do = {
+			factor = 3
+			
+		}
 	
 		visible = {
 			OR = {
@@ -224,18 +237,10 @@ MTG_naval_treaties = {
 				has_naval_treaty_trigger = no
 				NOT = { has_country_flag = MTG_naval_treaty_abandoned }
 				NOT = { has_country_flag = MTG_refused_naval_treaty }
-				if = {
-					limit = { ENG = { has_naval_treaty_trigger = yes } }
-					naval_strength_comparison = {
-						other = ENG
-						ratio > 0.35
-						sub_unit_def_weights = {
-							carrier = 0.25
-							battleship = 1
-							battle_cruiser = 0.8
-							heavy_cruiser = 0.5
-						}
-					}
+				
+				else_if = {
+					
+					
 				}
 				else = {
 					has_navy_size = {
@@ -247,6 +252,10 @@ MTG_naval_treaties = {
 		}
 		cost = 50
 		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+			
+		}
 	
 		visible = {
 			has_naval_treaty_trigger = yes
@@ -276,6 +285,13 @@ MTG_naval_treaties = {
 				has_war = no
 				has_country_flag = MTG_naval_treaty_abandoned
 				if = {
+					
+					
+				}
+				else_if = {
+					
+				}
+				else = {
 					has_navy_size = {
 						type = capital_ship
 						size > 20
@@ -285,6 +301,22 @@ MTG_naval_treaties = {
 		}
 		cost = 50
 		fire_only_once = yes
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				NOT = {
+					
+				}
+				factor = 0
+			}
+			modifier = {
+				is_historical_focus_on = yes
+				FROM = {
+					
+				}
+				factor = 0
+			}
+		}
 	
 		visible = {
 			has_naval_treaty_trigger = yes
@@ -318,6 +350,12 @@ MTG_naval_treaties = {
 						NOT = { has_country_flag = MTG_refused_naval_treaty }
 						has_naval_treaty_trigger = no
 						if = {
+							
+						}
+						else_if = {
+							
+						}
+						else = {
 							has_navy_size = {
 								type = capital_ship
 								size > 50
@@ -327,6 +365,12 @@ MTG_naval_treaties = {
 					AND = {
 						has_naval_treaty_trigger = yes
 						if = {
+							
+						}
+						else_if = {
+							
+						}
+						else = {
 							has_navy_size = {
 								type = capital_ship
 								size > 50
@@ -338,6 +382,15 @@ MTG_naval_treaties = {
 		}
 		cost = 50
 		fire_only_once = yes
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				NOT = {
+					
+				}
+				factor = 0
+			}
+		}
 	
 		visible = {
 			has_naval_treaty_trigger = yes
@@ -357,6 +410,12 @@ MTG_naval_treaties = {
 		}
 		available = {
 			if = {
+				
+			}
+			else_if = {
+				
+			}
+			else = {
 				has_navy_size = {
 					type = capital_ship
 					size < 20
@@ -391,6 +450,12 @@ MTG_naval_treaties = {
 		}
 		available = {
 			if = {
+				
+			}
+			else_if = {
+				
+			}
+			else = {
 				has_navy_size = {
 					type = capital_ship
 					size < 50
@@ -398,7 +463,21 @@ MTG_naval_treaties = {
 			}
 		}
 		is_good = no
-		
+		#activation = {
+		#	if = {
+		#		
+		#	}
+		#	else_if = {
+		#		
+		#	}
+		#	else = {
+		#		has_navy_size = {
+		#			type = capital_ship
+		#			size > 50
+		#		}
+		#	}
+		#	has_naval_treaty_trigger = yes
+		#}
 		days_mission_timeout = 30
 	
 		visible = {

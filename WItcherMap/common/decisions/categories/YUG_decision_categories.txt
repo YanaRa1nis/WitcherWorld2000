@@ -11,6 +11,7 @@ YUG_peasant_uprisings = {
 	}
 
 	visible = {
+		has_completed_focus = YUG_pan_slavic_workers_congress
 	}
 }
 
@@ -23,6 +24,7 @@ YUG_crush_ustasa = {
 	}
 
 	visible = {
+		has_completed_focus = YUG_crush_the_ustasa
 	}
 }
 
@@ -35,6 +37,7 @@ YUG_delay_ustasa_uprising = {
 	}
 
 	visible = {
+		has_completed_focus = YUG_crush_the_ustasa
 	}
 }
 
@@ -47,5 +50,6 @@ YUG_progress_crushing_decisions = {
 	}
 
 	visible = {
+		has_completed_focus = YUG_crush_the_ustasa
 	}
 }

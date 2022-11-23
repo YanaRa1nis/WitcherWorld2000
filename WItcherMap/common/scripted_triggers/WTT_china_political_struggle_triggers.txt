@@ -88,7 +88,6 @@ WTT_is_potential_political_struggle_state = {
 		#state = 606 # Anhui
 		#state = 607 # Henan
 		#state = 608 # Beijing
-		#state = 613 # Shanghai
 		#state = 614 # Hebei
 		#state = 615 # Shanxi
 		#state = 616 # Ningxia

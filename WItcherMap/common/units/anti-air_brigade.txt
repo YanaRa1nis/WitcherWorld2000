@@ -5,6 +5,7 @@
 sub_units = {
 
 	anti_air_brigade = {
+		abbreviation = "ANA"
 		sprite = infantry
 		map_icon_category = infantry
 		priority = 301
@@ -64,6 +65,7 @@ sub_units = {
 		}
 	}
 	mot_anti_air_brigade = {
+		abbreviation = "MAA"
 		sprite = infantry
 		map_icon_category = infantry
 		priority = 301
@@ -94,6 +96,11 @@ sub_units = {
 		
 		supply_consumption = 0.15
 		transport = motorized_equipment
+
+		essential = {
+			motorized_equipment
+		}
+
 		need = {
 			anti_air_equipment = 30
 			motorized_equipment = 50

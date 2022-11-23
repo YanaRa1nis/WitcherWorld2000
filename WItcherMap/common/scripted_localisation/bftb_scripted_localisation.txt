@@ -16,7 +16,7 @@ defined_text = {
 			NOT = {
 				has_government = fascism
 				has_country_leader = { 
-					name = "Georgios Kosmidis"
+					character = GRE_georgios_kosmidis
 					ruling_only = yes
 				}
 			}
@@ -39,7 +39,7 @@ defined_text = {
 			original_tag = GRE
 			NOT = {
 				has_country_leader = { 
-					name = "Ioannis Metaxas"
+					character = GRE_ioannis_metaxas
 					ruling_only = yes
 				}
 			}
@@ -50,7 +50,7 @@ defined_text = {
 		trigger = {
 			original_tag = GRE
 			has_country_leader = { 
-				name = "Ioannis Metaxas"
+				character = GRE_ioannis_metaxas
 				ruling_only = yes
 			}
 		}
@@ -64,6 +64,7 @@ defined_text = {
 		trigger = {
 			original_tag = GRE
 			NOT = {
+				has_completed_focus = GRE_realign_ourselves_with_the_central_powers
 			}
 		}
 		localization_key = GRE_PROTECTORS_MEDITERRANEAN_FOCUS_NAME_STANDARD
@@ -71,6 +72,7 @@ defined_text = {
 	text = {
 		trigger = {
 			original_tag = GRE
+			has_completed_focus = GRE_realign_ourselves_with_the_central_powers
 		}
 		localization_key = GRE_PROTECTORS_MEDITERRANEAN_FOCUS_NAME_MONARCHIST
 	}
@@ -82,6 +84,7 @@ defined_text = {
 		trigger = {
 			original_tag = GRE
 			NOT = {
+				has_completed_focus = GRE_realign_ourselves_with_the_central_powers
 			}
 		}
 		localization_key = GRE_PROTECTORS_MEDITERRANEAN_FOCUS_DESCRIPTION_STANDARD
@@ -89,6 +92,7 @@ defined_text = {
 	text = {
 		trigger = {
 			original_tag = GRE
+			has_completed_focus = GRE_realign_ourselves_with_the_central_powers
 		}
 		localization_key = GRE_PROTECTORS_MEDITERRANEAN_FOCUS_DESCRIPTION_MONARCHIST
 	}
@@ -100,6 +104,7 @@ defined_text = {
 		trigger = {
 			original_tag = GRE
 			NOT = {
+				has_completed_focus = GRE_realign_ourselves_with_the_central_powers
 			}
 		}
 		localization_key = GRE_PROTECTORS_MEDITERRANEAN_SPIRIT_NAME_STANDARD
@@ -107,6 +112,7 @@ defined_text = {
 	text = {
 		trigger = {
 			original_tag = GRE
+			has_completed_focus = GRE_realign_ourselves_with_the_central_powers
 		}
 		localization_key = GRE_PROTECTORS_MEDITERRANEAN_SPIRIT_NAME_MONARCHIST
 	}
@@ -260,15 +266,15 @@ defined_text = {
 			NOT = {
 				OR = { 
 					has_country_leader = {
-						name = "Adnan Menderes"
+						character = TUR_adnan_menderes
 						ruling_only = yes
 					}
 					has_country_leader = {
-						name = "Refet Pasha"
+						character = TUR_refet_pasha
 						ruling_only = yes
 					}
 					has_country_leader = {
-						name = "Abdulmejid II"
+						character = TUR_abdulmejid_ii
 						ruling_only = yes
 					}
 				}
@@ -281,15 +287,15 @@ defined_text = {
 			original_tag = TUR
 			OR = { 
 				has_country_leader = {
-					name = "Adnan Menderes"
+					character = TUR_adnan_menderes
 					ruling_only = yes
 				}
 				has_country_leader = {
-					name = "Refet Pasha"
+					character = TUR_refet_pasha
 					ruling_only = yes
 				}
 				has_country_leader = {
-					name = "Abdulmejid II"
+					character = TUR_abdulmejid_ii
 					ruling_only = yes
 				}
 			}
@@ -306,15 +312,15 @@ defined_text = {
 			NOT = {
 				OR = { 
 					has_country_leader = {
-						name = "Adnan Menderes"
+						character = TUR_adnan_menderes
 						ruling_only = yes
 					}
 					has_country_leader = {
-						name = "Refet Pasha"
+						character = TUR_refet_pasha
 						ruling_only = yes
 					}
 					has_country_leader = {
-						name = "Abdulmejid II"
+						character = TUR_abdulmejid_ii
 						ruling_only = yes
 					}
 				}
@@ -327,15 +333,15 @@ defined_text = {
 			original_tag = TUR
 			OR = { 
 				has_country_leader = {
-					name = "Adnan Menderes"
+					character = TUR_adnan_menderes
 					ruling_only = yes
 				}
 				has_country_leader = {
-					name = "Refet Pasha"
+					character = TUR_refet_pasha
 					ruling_only = yes
 				}
 				has_country_leader = {
-					name = "Abdulmejid II"
+					character = TUR_abdulmejid_ii
 					ruling_only = yes
 				}
 			}
@@ -352,19 +358,19 @@ defined_text = {
 			NOT = { 
 				OR = { 
 					has_country_leader = {
-						name = "Adnan Menderes"
+						character = TUR_adnan_menderes
 						ruling_only = yes
 					}
 					has_country_leader = {
-						name = "Refet Pasha"
+						character = TUR_refet_pasha
 						ruling_only = yes
 					}
 					has_country_leader = {
-						name = "Abdulmejid II"
+						character = TUR_abdulmejid_ii
 						ruling_only = yes
 					}
 					has_country_leader = {
-						name = "Dürrüşehvar I"
+						character = TUR_durrushehvar_i
 						ruling_only = yes
 					}
 				}
@@ -377,19 +383,19 @@ defined_text = {
 			original_tag = TUR
 			OR = {
 				has_country_leader = {
-					name = "Adnan Menderes"
+					character = TUR_adnan_menderes
 					ruling_only = yes
 				}
 				has_country_leader = {
-					name = "Refet Pasha"
+					character = TUR_refet_pasha
 					ruling_only = yes
 				}
 				has_country_leader = {
-					name = "Abdulmejid II"
+					character = TUR_abdulmejid_ii
 					ruling_only = yes
 				}
 				has_country_leader = {
-					name = "Dürrüşehvar I"
+					character = TUR_durrushehvar_i
 					ruling_only = yes
 				}
 			}
@@ -406,19 +412,19 @@ defined_text = {
 			NOT = { 
 				OR = { 
 					has_country_leader = {
-						name = "Adnan Menderes"
+						character = TUR_adnan_menderes
 						ruling_only = yes
 					}
 					has_country_leader = {
-						name = "Refet Pasha"
+						character = TUR_refet_pasha
 						ruling_only = yes
 					}
 					has_country_leader = {
-						name = "Abdulmejid II"
+						character = TUR_abdulmejid_ii
 						ruling_only = yes
 					}
 					has_country_leader = {
-						name = "Dürrüşehvar I"
+						character = TUR_durrushehvar_i
 						ruling_only = yes
 					}
 				}
@@ -431,19 +437,19 @@ defined_text = {
 			original_tag = TUR
 			OR = {
 				has_country_leader = {
-					name = "Adnan Menderes"
+					character = TUR_adnan_menderes
 					ruling_only = yes
 				}
 				has_country_leader = {
-					name = "Refet Pasha"
+					character = TUR_refet_pasha
 					ruling_only = yes
 				}
 				has_country_leader = {
-					name = "Abdulmejid II"
+					character = TUR_abdulmejid_ii
 					ruling_only = yes
 				}
 				has_country_leader = {
-					name = "Dürrüşehvar I"
+					character = TUR_durrushehvar_i
 					ruling_only = yes
 				}
 			}
@@ -457,7 +463,7 @@ defined_text = {
 		trigger = {
 			original_tag = TUR
 			has_country_leader = {
-				name = "Dürrüşehvar I"
+				character = TUR_durrushehvar_i
 				ruling_only = yes
 			}
 		}
@@ -468,7 +474,7 @@ defined_text = {
 			original_tag = TUR
 			NOT =  {
 				has_country_leader = { 
-					name = "Dürrüşehvar I"
+					character = TUR_durrushehvar_i
 					ruling_only = yes
 				}
 			}
@@ -484,15 +490,15 @@ defined_text = {
 			NOT = { 
 				OR = { 
 					has_country_leader = {
-						name = "Mustafa Kemal Atatürk"
+						character = TUR_mustafa_kemal_ataturk
 						ruling_only = yes
 					}
 					has_country_leader = {
-						name = "Mehmet Recep Peker"
+						character = TUR_mehmet_recep_peker
 						ruling_only = yes
 					}
 					has_country_leader = {
-						name = "Şevket Süreyya Aydemir"
+						character = TUR_sevket_sureyya_aydemir
 						ruling_only = yes
 					}
 					has_country_flag = TUR_taxed_religious_institutions
@@ -506,15 +512,15 @@ defined_text = {
 			original_tag = TUR
 			OR = { 
 				has_country_leader = {
-					name = "Mustafa Kemal Atatürk"
+					character = TUR_mustafa_kemal_ataturk
 					ruling_only = yes
 				}
 				has_country_leader = {
-					name = "Mehmet Recep Peker"
+					character = TUR_mehmet_recep_peker
 					ruling_only = yes
 				}
 				has_country_leader = {
-					name = "Şevket Süreyya Aydemir"
+					character = TUR_sevket_sureyya_aydemir
 					ruling_only = yes
 				}
 				has_country_flag = TUR_taxed_religious_institutions
@@ -532,15 +538,15 @@ defined_text = {
 			NOT = { 
 				OR = { 
 					has_country_leader = {
-						name = "Mustafa Kemal Atatürk"
+						character = TUR_mustafa_kemal_ataturk
 						ruling_only = yes
 					}
 					has_country_leader = {
-						name = "Mehmet Recep Peker"
+						character = TUR_mehmet_recep_peker
 						ruling_only = yes
 					}
 					has_country_leader = {
-						name = "Şevket Süreyya Aydemir"
+						character = TUR_sevket_sureyya_aydemir
 						ruling_only = yes
 					}
 				}
@@ -553,15 +559,15 @@ defined_text = {
 			original_tag = TUR
 			OR = { 
 				has_country_leader = {
-					name = "Mustafa Kemal Atatürk"
+					character = TUR_mustafa_kemal_ataturk
 					ruling_only = yes
 				}
 				has_country_leader = {
-					name = "Mehmet Recep Peker"
+					character = TUR_mehmet_recep_peker
 					ruling_only = yes
 				}
 				has_country_leader = {
-					name = "Şevket Süreyya Aydemir"
+					character = TUR_sevket_sureyya_aydemir
 					ruling_only = yes
 				}
 			}
@@ -571,46 +577,14 @@ defined_text = {
 }
 
 defined_text = {
-	name = GetMonarchistLoyaltyLevel
-	text = {
-		trigger = {
-			original_tag = GRE
-			check_variable = { var = GRE_monarchist_loyalty value = 2 compare = greater_than_or_equals }
-		}
-		localization_key = GRE_faction_loyal
-	}
-	text = {
-		trigger = {
-			original_tag = GRE
-			check_variable = { var = GRE_monarchist_loyalty value = 1 compare = equals }
-		}
-		localization_key = GRE_faction_friendly
-	}
-	text = {
-		trigger = {
-			original_tag = GRE
-			check_variable = { var = GRE_monarchist_loyalty value = 0 compare = equals }
-		}
-		localization_key = GRE_faction_indifferent
-	}
-	text = {
-		trigger = {
-			original_tag = GRE
-			check_variable = { var = GRE_monarchist_loyalty value = -1 compare = equals }
-		}
-		localization_key = GRE_faction_hostile
-	}
-	text = {
-		trigger = {
-			original_tag = GRE
-			check_variable = { var = GRE_monarchist_loyalty value = -2 compare = less_than_or_equals }
-		}
-		localization_key = GRE_faction_inconsequential
-	}
-}
-
-defined_text = {
 	name = GetMonarchistLoyaltyEffects
+	text = {
+		trigger = {
+			original_tag = GRE
+			check_variable = { var = GRE_monarchist_loyalty value = 2 compare = equals }
+		}
+		localization_key = GRE_faction_loyal_effects
+	}
 	text = {
 		trigger = {
 			original_tag = GRE
@@ -638,46 +612,14 @@ defined_text = {
 }
 
 defined_text = {
-	name = GetRepublicanLoyaltyLevel
-	text = {
-		trigger = {
-			original_tag = GRE
-			check_variable = { var = GRE_republican_loyalty value = 2 compare = greater_than_or_equals }
-		}
-		localization_key = GRE_faction_loyal
-	}
-	text = {
-		trigger = {
-			original_tag = GRE
-			check_variable = { var = GRE_republican_loyalty value = 1 compare = equals }
-		}
-		localization_key = GRE_faction_friendly
-	}
-	text = {
-		trigger = {
-			original_tag = GRE
-			check_variable = { var = GRE_republican_loyalty value = 0 compare = equals }
-		}
-		localization_key = GRE_faction_indifferent
-	}
-	text = {
-		trigger = {
-			original_tag = GRE
-			check_variable = { var = GRE_republican_loyalty value = -1 compare = equals }
-		}
-		localization_key = GRE_faction_hostile
-	}
-	text = {
-		trigger = {
-			original_tag = GRE
-			check_variable = { var = GRE_republican_loyalty value = -2 compare = less_than_or_equals }
-		}
-		localization_key = GRE_faction_inconsequential
-	}
-}
-
-defined_text = {
 	name = GetRepublicanLoyaltyEffects
+	text = {
+		trigger = {
+			original_tag = GRE
+			check_variable = { var = GRE_republican_loyalty value = 2 compare = equals }
+		}
+		localization_key = GRE_faction_loyal_effects
+	}
 	text = {
 		trigger = {
 			original_tag = GRE
@@ -705,46 +647,14 @@ defined_text = {
 }
 
 defined_text = {
-	name = GetCommunistLoyaltyLevel
-	text = {
-		trigger = {
-			original_tag = GRE
-			check_variable = { var = GRE_communist_loyalty value = 2 compare = greater_than_or_equals }
-		}
-		localization_key = GRE_faction_loyal
-	}
-	text = {
-		trigger = {
-			original_tag = GRE
-			check_variable = { var = GRE_communist_loyalty value = 1 compare = equals }
-		}
-		localization_key = GRE_faction_friendly
-	}
-	text = {
-		trigger = {
-			original_tag = GRE
-			check_variable = { var = GRE_communist_loyalty value = 0 compare = equals }
-		}
-		localization_key = GRE_faction_indifferent
-	}
-	text = {
-		trigger = {
-			original_tag = GRE
-			check_variable = { var = GRE_communist_loyalty value = -1 compare = equals }
-		}
-		localization_key = GRE_faction_hostile
-	}
-	text = {
-		trigger = {
-			original_tag = GRE
-			check_variable = { var = GRE_communist_loyalty value = -2 compare = less_than_or_equals }
-		}
-		localization_key = GRE_faction_inconsequential
-	}
-}
-
-defined_text = {
 	name = GetCommunistLoyaltyEffects
+	text = {
+		trigger = {
+			original_tag = GRE
+			check_variable = { var = GRE_communist_loyalty value = 2 compare = equals }
+		}
+		localization_key = GRE_faction_loyal_effects
+	}
 	text = {
 		trigger = {
 			original_tag = GRE
@@ -772,46 +682,14 @@ defined_text = {
 }
 
 defined_text = {
-	name = GetFascistLoyaltyLevel
-	text = {
-		trigger = {
-			original_tag = GRE
-			check_variable = { var = GRE_fascist_loyalty value = 2 compare = greater_than_or_equals }
-		}
-		localization_key = GRE_faction_loyal
-	}
-	text = {
-		trigger = {
-			original_tag = GRE
-			check_variable = { var = GRE_fascist_loyalty value = 1 compare = equals }
-		}
-		localization_key = GRE_faction_friendly
-	}
-	text = {
-		trigger = {
-			original_tag = GRE
-			check_variable = { var = GRE_fascist_loyalty value = 0 compare = equals }
-		}
-		localization_key = GRE_faction_indifferent
-	}
-	text = {
-		trigger = {
-			original_tag = GRE
-			check_variable = { var = GRE_fascist_loyalty value = -1 compare = equals }
-		}
-		localization_key = GRE_faction_hostile
-	}
-	text = {
-		trigger = {
-			original_tag = GRE
-			check_variable = { var = GRE_fascist_loyalty value = -2 compare = less_than_or_equals }
-		}
-		localization_key = GRE_faction_inconsequential
-	}
-}
-
-defined_text = {
 	name = GetFascistLoyaltyEffects
+	text = {
+		trigger = {
+			original_tag = GRE
+			check_variable = { var = GRE_fascist_loyalty value = 2 compare = equals }
+		}
+		localization_key = GRE_faction_loyal_effects
+	}
 	text = {
 		trigger = {
 			original_tag = GRE
@@ -1073,74 +951,6 @@ defined_text = {
 }
 
 defined_text = {
-	name = GetZvenoValues
-	text = {
-		trigger = {
-			original_tag = BUL
-			OR = {
-				has_country_flag = BUL_zveno_destroyed_flag
-				has_country_flag = BUL_zveno_integrated_flag
-			}
-		}
-		localization_key = BUL_zveno_values_removed
-	}
-	text = {
-		localization_key = BUL_zveno_values
-	}
-}
-
-defined_text = {
-	name = GetBsValues
-	text = {
-		trigger = {
-			original_tag = BUL
-			OR = {
-				has_country_flag = BUL_bs_destroyed_flag
-				has_country_flag = BUL_bs_integrated_flag
-			}
-		}
-		localization_key = BUL_bs_values_removed
-	}
-	text = {
-		localization_key = BUL_bs_values
-	}
-}
-
-defined_text = {
-	name = GetBznsValues
-	text = {
-		trigger = {
-			original_tag = BUL
-			OR = {
-				has_country_flag = BUL_bzns_destroyed_flag
-				has_country_flag = BUL_bzns_integrated_flag
-			}
-		}
-		localization_key = BUL_bzns_values_removed
-	}
-	text = {
-		localization_key = BUL_bzns_values
-	}
-}
-
-defined_text = {
-	name = GetNsmValues
-	text = {
-		trigger = {
-			original_tag = BUL
-			OR = {
-				has_country_flag = BUL_nsm_destroyed_flag
-				has_country_flag = BUL_nsm_integrated_flag
-			}
-		}
-		localization_key = BUL_nsm_values_removed
-	}
-	text = {
-		localization_key = BUL_nsm_values
-	}
-}
-
-defined_text = {
 	name = GetZvenoName
 	text = {
 		trigger = {
@@ -1347,6 +1157,7 @@ defined_text = {
 	text = {
 		trigger = {
 			original_tag = BUL
+			has_completed_focus = BUL_support_macedonian_organizations
 		}
 		localization_key = BUL_macedonian_revolutionary_organizations_cooperation_desc
 	}
@@ -1613,6 +1424,7 @@ defined_text = {
 	name = GetGermanFactionNameDef
 	text = {
 		trigger = {
+			has_completed_focus = BUL_the_fate_of_the_balkans
 		}
 		localization_key = BUL_bulgarian_administration_of_the_balkans_independent_name_def
 	}
@@ -1634,6 +1446,7 @@ defined_text = {
 	name = GetGermanOrIndependent
 	text = {
 		trigger = {
+			has_completed_focus = BUL_the_fate_of_the_balkans
 		}
 		localization_key = BUL_bulgarian_administration_of_the_balkans_everyone_name
 	}
@@ -1869,8 +1682,16 @@ defined_text = {
 	text = {
 		trigger = {
 			FROM = {
-				has_tech = basic_medium_tank
-				NOT = { has_tech = basic_heavy_tank }
+				OR = {
+					AND = {
+						has_tech = basic_medium_tank
+						NOT = { has_tech = basic_heavy_tank }
+					}
+					AND = {
+						has_tech = basic_medium_tank_chassis
+						NOT = { has_tech = basic_heavy_tank_chassis }
+					}
+				}
 			}
 		}
 		localization_key = BUL_purchase_armor_medium_available
@@ -1878,8 +1699,16 @@ defined_text = {
 	text = {
 		trigger = {
 			FROM = {
-				has_tech = basic_heavy_tank
-				NOT = { has_tech = basic_medium_tank }
+				OR = {
+					AND = {
+						NOT = { has_tech = basic_medium_tank }
+						has_tech = basic_heavy_tank
+					}
+					AND = {
+						NOT = { has_tech = basic_medium_tank_chassis }
+						has_tech = basic_heavy_tank_chassis
+					}
+				}
 			}
 		}
 		localization_key = BUL_purchase_armor_heavy_available
@@ -1887,8 +1716,16 @@ defined_text = {
 	text = {
 		trigger = {
 			FROM = {
-				has_tech = basic_medium_tank
-				has_tech = basic_heavy_tank
+				OR = {
+					AND = {
+						has_tech = basic_medium_tank
+						has_tech = basic_heavy_tank
+					}
+					AND = {
+						has_tech = basic_medium_tank_chassis
+						has_tech = basic_heavy_tank_chassis
+					}
+				}
 			}
 		}
 		localization_key = BUL_purchase_armor_everything_available
@@ -1936,11 +1773,13 @@ defined_text = {
 	name = GetBalkanFactionName
 	text = {
 		trigger = {
+			has_completed_focus = BUL_balkan_federation_of_socialist_republics
 		}
 		localization_key = BUL_bury_the_grudges_of_the_past_communist
 	}
 	text = {
 		trigger = {
+			has_completed_focus = BUL_a_balkan_confederation
 		}
 		localization_key = BUL_bury_the_grudges_of_the_past_democratic
 	}
@@ -2236,15 +2075,15 @@ defined_text = {
 			BUL = {
 				OR = {
 					has_country_leader = {
-						name = "Boris III"
+						character = BUL_boris_iii
 						ruling_only = yes
 					}
 					has_country_leader = {
-						name = "Ferdinand I"
+						character = BUL_ferdinand_i
 						ruling_only = yes
 					}
 					has_country_leader = {
-						name = "Regency Council"
+						character = BUL_regency_council
 						ruling_only = yes
 					}
 				}
@@ -2263,7 +2102,7 @@ defined_text = {
 		trigger = {
 			BUL = {
 				has_country_leader = {
-					name = "Regency Council"
+					character = BUL_regency_council
 					ruling_only = yes
 				}
 			}
@@ -2332,11 +2171,11 @@ defined_text = {
 		trigger = {
 			OR = {
 				has_country_leader = {
-					name = "Boris III"
+					character = BUL_boris_iii
 					ruling_only = yes
 				}
 				has_country_leader = {
-					name = "Ferdinand I"
+					character = BUL_ferdinand_i
 					ruling_only = yes
 				}
 			}
@@ -2346,7 +2185,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = {
-				name = "Regency Council"
+				character = BUL_regency_council
 				ruling_only = yes
 			}
 		}
@@ -2487,7 +2326,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = { 
-				name = "Boris III"
+				character = BUL_boris_iii
 			}
 		}
 		localization_key = BUL_tsar_is_boris
@@ -2495,7 +2334,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = { 
-				name = "Ferdinand I"
+				character = BUL_ferdinand_i
 			}
 		}
 		localization_key = BUL_tsar_is_ferdinand
@@ -2503,7 +2342,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = { 
-				name = "Regency Council"
+				character = BUL_regency_council
 			}
 		}
 		localization_key = BUL_tsar_is_simeon
@@ -2611,11 +2450,11 @@ defined_text = {
 			BUL = {
 				OR = {
 					has_country_leader = { 
-						name = "Boris III"
+						character = BUL_boris_iii
 						ruling_only = yes
 					}
 					has_country_leader = { 
-						name = "Ferdinand I"
+						character = BUL_ferdinand_i
 						ruling_only = yes
 					}
 				}
@@ -2628,7 +2467,7 @@ defined_text = {
 		trigger = {
 			BUL = {
 				has_country_leader = { 
-					name = "Regency Council"
+					character = BUL_regency_council
 					ruling_only = yes
 				}
 			}
@@ -2647,11 +2486,11 @@ defined_text = {
 			BUL = {
 				OR = {
 					has_country_leader = { 
-						name = "Boris III"
+						character = BUL_boris_iii
 						ruling_only = yes
 					}
 					has_country_leader = { 
-						name = "Ferdinand I"
+						character = BUL_ferdinand_i
 						ruling_only = yes
 					}
 				}
@@ -2664,7 +2503,7 @@ defined_text = {
 		trigger = {
 			BUL = {
 				has_country_leader = { 
-					name = "Regency Council"
+					character = BUL_regency_council
 					ruling_only = yes
 				}
 			}
@@ -2846,6 +2685,7 @@ defined_text = {
 	name = GetFederationOrConfederation
 	text = {
 		trigger = {
+			has_completed_focus = BUL_democratic_principles
 		}
 		localization_key = BUL_confederation
 	}
@@ -2939,5 +2779,635 @@ defined_text = {
 	}
 	text = {
 		localization_key = BUL_simeon_is_underage
+	}
+}
+
+defined_text = {
+	name = GetTriggerForMacedonia
+	text = {
+		trigger = {
+			has_country_flag = BUL_imro_awakened_in_macedonia_flag
+		}
+		localization_key = BUL_destroy_imro_foreign_cancel_trigger_macedonia
+	}
+	text = {
+		localization_key = BUL_destroy_imro_foreign_cancel_trigger_null
+	}
+}
+
+defined_text = {
+	name = GetTriggerForCentralMacedonia
+	text = {
+		trigger = {
+			has_country_flag = BUL_imro_awakened_in_central_macedonia_flag
+		}
+		localization_key = BUL_destroy_imro_foreign_cancel_trigger_central_macedonia
+	}
+	text = {
+		localization_key = BUL_destroy_imro_foreign_cancel_trigger_null
+	}
+}
+
+defined_text = {
+	name = GetTriggerForThrace
+	text = {
+		trigger = {
+			has_country_flag = BUL_imro_awakened_in_thrace_flag
+		}
+		localization_key = BUL_destroy_imro_foreign_cancel_trigger_thrace
+	}
+	text = {
+		localization_key = BUL_destroy_imro_foreign_cancel_trigger_null
+	}
+}
+
+
+defined_text = {
+	name = GetMonarchistLoyaltyLevel
+	text = {
+		trigger = {
+			original_tag = GRE
+			check_variable = { var = GRE_monarchist_loyalty value = 2 compare = greater_than_or_equals }
+		}
+		localization_key = GRE_faction_loyal
+	}
+	text = {
+		trigger = {
+			original_tag = GRE
+			check_variable = { var = GRE_monarchist_loyalty value = 1 compare = equals }
+		}
+		localization_key = GRE_faction_friendly
+	}
+	text = {
+		trigger = {
+			original_tag = GRE
+			check_variable = { var = GRE_monarchist_loyalty value = 0 compare = equals }
+		}
+		localization_key = GRE_faction_indifferent
+	}
+	text = {
+		trigger = {
+			original_tag = GRE
+			check_variable = { var = GRE_monarchist_loyalty value = -1 compare = equals }
+		}
+		localization_key = GRE_faction_hostile
+	}
+	text = {
+		trigger = {
+			original_tag = GRE
+			check_variable = { var = GRE_monarchist_loyalty value = -2 compare = less_than_or_equals }
+		}
+		localization_key = GRE_faction_inconsequential
+	}
+}
+
+defined_text = {
+	name = GetMonarchistStabilityBonus
+	text = {
+		trigger = {
+			original_tag = GRE
+			check_variable = { var = GRE_monarchist_loyalty value = 2 compare = equals }
+		}
+		localization_key = GRE_faction_loyal_stability
+	}
+	text = {
+		trigger = {
+			original_tag = GRE
+			check_variable = { var = GRE_monarchist_loyalty value = 1 compare = equals }
+		}
+		localization_key = GRE_faction_friendly_stability
+	}
+	text = {
+		trigger = {
+			original_tag = GRE
+			OR =  {	
+				check_variable = { var = GRE_monarchist_loyalty value = 0 compare = equals }
+				check_variable = { var = GRE_monarchist_loyalty value = -2 compare = equals }
+			}
+		}
+		localization_key = GRE_faction_indifferent_stability
+	}
+	text = {
+		trigger = {
+			original_tag = GRE
+			check_variable = { var = GRE_monarchist_loyalty value = -1 compare = equals }
+		}
+		localization_key = GRE_faction_hostile_stability
+	}
+}
+
+defined_text = {
+	name = GetMonarchistManpowerBonus
+	text = {
+		trigger = {
+			original_tag = GRE
+			check_variable = { var = GRE_monarchist_loyalty value = 2 compare = equals }
+		}
+		localization_key = GRE_faction_loyal_manpower
+	}
+	text = {
+		trigger = {
+			original_tag = GRE
+			check_variable = { var = GRE_monarchist_loyalty value = 1 compare = equals }
+		}
+		localization_key = GRE_faction_friendly_manpower
+	}
+	text = {
+		trigger = {
+			original_tag = GRE
+			OR =  {	
+				check_variable = { var = GRE_monarchist_loyalty value = 0 compare = equals }
+				check_variable = { var = GRE_monarchist_loyalty value = -2 compare = equals }
+			}
+		}
+		localization_key = GRE_faction_indifferent_manpower
+	}
+	text = {
+		trigger = {
+			original_tag = GRE
+			check_variable = { var = GRE_monarchist_loyalty value = -1 compare = equals }
+		}
+		localization_key = GRE_faction_hostile_manpower
+	}
+}
+
+defined_text = {
+	name = GetRepublicanLoyaltyLevel
+	text = {
+		trigger = {
+			original_tag = GRE
+			check_variable = { var = GRE_republican_loyalty value = 2 compare = greater_than_or_equals }
+		}
+		localization_key = GRE_faction_loyal
+	}
+	text = {
+		trigger = {
+			original_tag = GRE
+			check_variable = { var = GRE_republican_loyalty value = 1 compare = equals }
+		}
+		localization_key = GRE_faction_friendly
+	}
+	text = {
+		trigger = {
+			original_tag = GRE
+			check_variable = { var = GRE_republican_loyalty value = 0 compare = equals }
+		}
+		localization_key = GRE_faction_indifferent
+	}
+	text = {
+		trigger = {
+			original_tag = GRE
+			check_variable = { var = GRE_republican_loyalty value = -1 compare = equals }
+		}
+		localization_key = GRE_faction_hostile
+	}
+	text = {
+		trigger = {
+			original_tag = GRE
+			check_variable = { var = GRE_republican_loyalty value = -2 compare = less_than_or_equals }
+		}
+		localization_key = GRE_faction_inconsequential
+	}
+}
+
+defined_text = {
+	name = GetRepublicanStabilityBonus
+	text = {
+		trigger = {
+			original_tag = GRE
+			check_variable = { var = GRE_republican_loyalty value = 2 compare = equals }
+		}
+		localization_key = GRE_faction_loyal_stability
+	}
+	text = {
+		trigger = {
+			original_tag = GRE
+			check_variable = { var = GRE_republican_loyalty value = 1 compare = equals }
+		}
+		localization_key = GRE_faction_friendly_stability
+	}
+	text = {
+		trigger = {
+			original_tag = GRE
+			OR =  {	
+				check_variable = { var = GRE_republican_loyalty value = 0 compare = equals }
+				check_variable = { var = GRE_republican_loyalty value = -2 compare = equals }
+			}
+		}
+		localization_key = GRE_faction_indifferent_stability
+	}
+	text = {
+		trigger = {
+			original_tag = GRE
+			check_variable = { var = GRE_republican_loyalty value = -1 compare = equals }
+		}
+		localization_key = GRE_faction_hostile_stability
+	}
+}
+
+defined_text = {
+	name = GetRepublicanManpowerBonus
+	text = {
+		trigger = {
+			original_tag = GRE
+			check_variable = { var = GRE_republican_loyalty value = 2 compare = equals }
+		}
+		localization_key = GRE_faction_loyal_manpower
+	}
+	text = {
+		trigger = {
+			original_tag = GRE
+			check_variable = { var = GRE_republican_loyalty value = 1 compare = equals }
+		}
+		localization_key = GRE_faction_friendly_manpower
+	}
+	text = {
+		trigger = {
+			original_tag = GRE
+			OR =  {	
+				check_variable = { var = GRE_republican_loyalty value = 0 compare = equals }
+				check_variable = { var = GRE_republican_loyalty value = -2 compare = equals }
+			}
+		}
+		localization_key = GRE_faction_indifferent_manpower
+	}
+	text = {
+		trigger = {
+			original_tag = GRE
+			check_variable = { var = GRE_republican_loyalty value = -1 compare = equals }
+		}
+		localization_key = GRE_faction_hostile_manpower
+	}
+}
+
+defined_text = {
+	name = GetCommunistLoyaltyLevel
+	text = {
+		trigger = {
+			original_tag = GRE
+			check_variable = { var = GRE_communist_loyalty value = 2 compare = greater_than_or_equals }
+		}
+		localization_key = GRE_faction_loyal
+	}
+	text = {
+		trigger = {
+			original_tag = GRE
+			check_variable = { var = GRE_communist_loyalty value = 1 compare = equals }
+		}
+		localization_key = GRE_faction_friendly
+	}
+	text = {
+		trigger = {
+			original_tag = GRE
+			check_variable = { var = GRE_communist_loyalty value = 0 compare = equals }
+		}
+		localization_key = GRE_faction_indifferent
+	}
+	text = {
+		trigger = {
+			original_tag = GRE
+			check_variable = { var = GRE_communist_loyalty value = -1 compare = equals }
+		}
+		localization_key = GRE_faction_hostile
+	}
+	text = {
+		trigger = {
+			original_tag = GRE
+			check_variable = { var = GRE_communist_loyalty value = -2 compare = less_than_or_equals }
+		}
+		localization_key = GRE_faction_inconsequential
+	}
+}
+
+defined_text = {
+	name = GetCommunistStabilityBonus
+	text = {
+		trigger = {
+			original_tag = GRE
+			check_variable = { var = GRE_communist_loyalty value = 2 compare = equals }
+		}
+		localization_key = GRE_faction_loyal_stability
+	}
+	text = {
+		trigger = {
+			original_tag = GRE
+			check_variable = { var = GRE_communist_loyalty value = 1 compare = equals }
+		}
+		localization_key = GRE_faction_friendly_stability
+	}
+	text = {
+		trigger = {
+			original_tag = GRE
+			OR =  {	
+				check_variable = { var = GRE_communist_loyalty value = 0 compare = equals }
+				check_variable = { var = GRE_communist_loyalty value = -2 compare = equals }
+			}
+		}
+		localization_key = GRE_faction_indifferent_stability
+	}
+	text = {
+		trigger = {
+			original_tag = GRE
+			check_variable = { var = GRE_communist_loyalty value = -1 compare = equals }
+		}
+		localization_key = GRE_faction_hostile_stability
+	}
+}
+
+defined_text = {
+	name = GetCommunistManpowerBonus
+	text = {
+		trigger = {
+			original_tag = GRE
+			check_variable = { var = GRE_communist_loyalty value = 2 compare = equals }
+		}
+		localization_key = GRE_faction_loyal_manpower
+	}
+	text = {
+		trigger = {
+			original_tag = GRE
+			check_variable = { var = GRE_communist_loyalty value = 1 compare = equals }
+		}
+		localization_key = GRE_faction_friendly_manpower
+	}
+	text = {
+		trigger = {
+			original_tag = GRE
+			OR =  {	
+				check_variable = { var = GRE_communist_loyalty value = 0 compare = equals }
+				check_variable = { var = GRE_communist_loyalty value = -2 compare = equals }
+			}
+		}
+		localization_key = GRE_faction_indifferent_manpower
+	}
+	text = {
+		trigger = {
+			original_tag = GRE
+			check_variable = { var = GRE_communist_loyalty value = -1 compare = equals }
+		}
+		localization_key = GRE_faction_hostile_manpower
+	}
+}
+
+defined_text = {
+	name = GetFascistLoyaltyLevel
+	text = {
+		trigger = {
+			original_tag = GRE
+			check_variable = { var = GRE_fascist_loyalty value = 2 compare = greater_than_or_equals }
+		}
+		localization_key = GRE_faction_loyal
+	}
+	text = {
+		trigger = {
+			original_tag = GRE
+			check_variable = { var = GRE_fascist_loyalty value = 1 compare = equals }
+		}
+		localization_key = GRE_faction_friendly
+	}
+	text = {
+		trigger = {
+			original_tag = GRE
+			check_variable = { var = GRE_fascist_loyalty value = 0 compare = equals }
+		}
+		localization_key = GRE_faction_indifferent
+	}
+	text = {
+		trigger = {
+			original_tag = GRE
+			check_variable = { var = GRE_fascist_loyalty value = -1 compare = equals }
+		}
+		localization_key = GRE_faction_hostile
+	}
+	text = {
+		trigger = {
+			original_tag = GRE
+			check_variable = { var = GRE_fascist_loyalty value = -2 compare = less_than_or_equals }
+		}
+		localization_key = GRE_faction_inconsequential
+	}
+}
+
+defined_text = {
+	name = GetFascistStabilityBonus
+	text = {
+		trigger = {
+			original_tag = GRE
+			check_variable = { var = GRE_fascist_loyalty value = 2 compare = equals }
+		}
+		localization_key = GRE_faction_loyal_stability
+	}
+	text = {
+		trigger = {
+			original_tag = GRE
+			check_variable = { var = GRE_fascist_loyalty value = 1 compare = equals }
+		}
+		localization_key = GRE_faction_friendly_stability
+	}
+	text = {
+		trigger = {
+			original_tag = GRE
+			OR =  {	
+				check_variable = { var = GRE_fascist_loyalty value = 0 compare = equals }
+				check_variable = { var = GRE_fascist_loyalty value = -2 compare = equals }
+			}
+		}
+		localization_key = GRE_faction_indifferent_stability
+	}
+	text = {
+		trigger = {
+			original_tag = GRE
+			check_variable = { var = GRE_fascist_loyalty value = -1 compare = equals }
+		}
+		localization_key = GRE_faction_hostile_stability
+	}
+}
+
+defined_text = {
+	name = GetFascistManpowerBonus
+	text = {
+		trigger = {
+			original_tag = GRE
+			check_variable = { var = GRE_fascist_loyalty value = 2 compare = equals }
+		}
+		localization_key = GRE_faction_loyal_manpower
+	}
+	text = {
+		trigger = {
+			original_tag = GRE
+			check_variable = { var = GRE_fascist_loyalty value = 1 compare = equals }
+		}
+		localization_key = GRE_faction_friendly_manpower
+	}
+	text = {
+		trigger = {
+			original_tag = GRE
+			OR =  {	
+				check_variable = { var = GRE_fascist_loyalty value = 0 compare = equals }
+				check_variable = { var = GRE_fascist_loyalty value = -2 compare = equals }
+			}
+		}
+		localization_key = GRE_faction_indifferent_manpower
+	}
+	text = {
+		trigger = {
+			original_tag = GRE
+			check_variable = { var = GRE_fascist_loyalty value = -1 compare = equals }
+		}
+		localization_key = GRE_faction_hostile_manpower
+	}
+}
+
+defined_text = {
+	name = GetZvenoLoyaltyStatus
+	text = {
+		trigger = {
+			has_country_flag = BUL_zveno_destroyed_flag
+		}
+		localization_key = BUL_loyalty_status_crushed
+	}
+	text = {
+		trigger = {
+			original_tag = BUL
+			has_country_flag = BUL_zveno_integrated_flag
+		}
+		localization_key = BUL_loyalty_status_integrated
+	}
+	text = {
+		localization_key = BUL_zveno_loyalty_status_amount
+	}
+}
+
+defined_text = {
+	name = GetBsLoyaltyStatus
+	text = {
+		trigger = {
+			has_country_flag = BUL_bs_destroyed_flag
+		}
+		localization_key = BUL_loyalty_status_crushed
+	}
+	text = {
+		trigger = {
+			has_country_flag = BUL_bs_integrated_flag
+		}
+		localization_key = BUL_loyalty_status_integrated
+	}
+	text = {
+		localization_key = BUL_bs_loyalty_status_amount
+	}
+}
+
+defined_text = {
+	name = GetBznsLoyaltyStatus
+	text = {
+		trigger = {
+			has_country_flag = BUL_bzns_destroyed_flag
+		}
+		localization_key = BUL_loyalty_status_crushed
+	}
+	text = {
+		trigger = {
+			has_country_flag = BUL_bzns_integrated_flag
+		}
+		localization_key = BUL_loyalty_status_integrated
+	}
+	text = {
+		localization_key = BUL_bzns_loyalty_status_amount
+	}
+}
+
+defined_text = {
+	name = GetNsmLoyaltyStatus
+	text = {
+		trigger = {
+			has_country_flag = BUL_nsm_destroyed_flag
+		}
+		localization_key = BUL_loyalty_status_crushed
+	}
+	text = {
+		trigger = {
+			has_country_flag = BUL_nsm_integrated_flag
+		}
+		localization_key = BUL_loyalty_status_integrated
+	}
+	text = {
+		localization_key = BUL_nsm_loyalty_status_amount
+	}
+}
+
+defined_text = {
+	name = GetZvenoPopularityStatus
+	text = {
+		trigger = {
+			has_country_flag = BUL_zveno_destroyed_flag
+		}
+		localization_key = BUL_popularity_status_crushed
+	}
+	text = {
+		trigger = {
+			original_tag = BUL
+			has_country_flag = BUL_zveno_integrated_flag
+		}
+		localization_key = BUL_popularity_status_integrated
+	}
+	text = {
+		localization_key = BUL_zveno_popularity_status_amount
+	}
+}
+
+defined_text = {
+	name = GetBsPopularityStatus
+	text = {
+		trigger = {
+			has_country_flag = BUL_bs_destroyed_flag
+		}
+		localization_key = BUL_popularity_status_crushed
+	}
+	text = {
+		trigger = {
+			has_country_flag = BUL_bs_integrated_flag
+		}
+		localization_key = BUL_popularity_status_integrated
+	}
+	text = {
+		localization_key = BUL_bs_popularity_status_amount
+	}
+}
+
+defined_text = {
+	name = GetBznsPopularityStatus
+	text = {
+		trigger = {
+			has_country_flag = BUL_bzns_destroyed_flag
+		}
+		localization_key = BUL_popularity_status_crushed
+	}
+	text = {
+		trigger = {
+			has_country_flag = BUL_bzns_integrated_flag
+		}
+		localization_key = BUL_popularity_status_integrated
+	}
+	text = {
+		localization_key = BUL_bzns_popularity_status_amount
+	}
+}
+
+defined_text = {
+	name = GetNsmPopularityStatus
+	text = {
+		trigger = {
+			has_country_flag = BUL_nsm_destroyed_flag
+		}
+		localization_key = BUL_popularity_status_crushed
+	}
+	text = {
+		trigger = {
+			has_country_flag = BUL_nsm_integrated_flag
+		}
+		localization_key = BUL_popularity_status_integrated
+	}
+	text = {
+		localization_key = BUL_nsm_popularity_status_amount
 	}
 }

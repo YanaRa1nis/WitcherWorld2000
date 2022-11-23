@@ -873,30 +873,13 @@ defined_text = { #Country
 	text = { localization_key = "" }
 }
 
-#613 "Shanghai"
-defined_text = { #Country
-	name = GetShanghai
-	text = {
-		trigger = {
-			613 = {
-				WTT_is_active_political_struggle_state = yes
-				has_state_flag = majority_political_platform_@PREV
-			}
-		}
-		localization_key = STATE_613
-	}
-	text = { localization_key = "" }
-}
+
 defined_text = { #Country
 	name = GetShanghaiPoints
 	text = {
 		trigger = {
-			613 = {
-				WTT_is_active_political_struggle_state = yes
-				has_state_flag = majority_political_platform_@PREV
-			}
+			
 		}
-		localization_key = 613_shanghai_points
 	}
 	text = { localization_key = "" }
 }

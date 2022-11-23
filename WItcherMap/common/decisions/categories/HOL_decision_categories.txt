@@ -12,6 +12,7 @@ HOL_obtain_foreign_colonial_investments = {
 	}
 
 	visible = {
+		has_completed_focus = HOL_obtain_foreign_colonial_investments
 	}
 }
 
@@ -25,6 +26,7 @@ HOL_prepare_the_inundation_lines = {
 	}
 
 	visible = {
+		has_completed_focus = HOL_prepare_the_inundation_lines
 	}
 }
 
@@ -38,6 +40,7 @@ HOL_war_on_pacifism = {
 	}
 
 	visible = {
+		has_completed_focus = HOL_war_on_pacifism
 	}
 }
 
@@ -51,6 +54,7 @@ HOL_secret_staff_talks = {
 	}
 
 	visible = {
+		has_completed_focus = HOL_secret_staff_talks
 		date < 1942.01.01
 	}
 }
@@ -92,6 +96,9 @@ HOL_gateway_to_europe_hol_category = {
 	visible_when_empty = yes
 
 	visible = {
+		NOT = { HOL = { has_completed_focus = HOL_cave_to_the_germans } }
+		NOT = { HOL = { has_completed_focus = HOL_cave_to_the_british } }
+		NOT = { HOL = { has_completed_focus = HOL_maintain_trade_neutrality } }
 		NOT = { HOL = { has_war_with = ENG } }
 		NOT = { HOL = { has_war_with = GER } }
 		HOL = {
@@ -138,6 +145,9 @@ HOL_gateway_to_europe_ger_category = {
 	visible_when_empty = yes
 
 	visible = {
+		NOT = { HOL = { has_completed_focus = HOL_cave_to_the_germans } }
+		NOT = { HOL = { has_completed_focus = HOL_cave_to_the_british } }
+		NOT = { HOL = { has_completed_focus = HOL_maintain_trade_neutrality } }
 		NOT = { HOL = { has_war_with = ENG } }
 		NOT = { HOL = { has_war_with = GER } }
 		HOL = {
@@ -184,6 +194,9 @@ HOL_gateway_to_europe_eng_category = {
 	visible_when_empty = yes
 
 	visible = {
+		NOT = { HOL = { has_completed_focus = HOL_cave_to_the_germans } }
+		NOT = { HOL = { has_completed_focus = HOL_cave_to_the_british } }
+		NOT = { HOL = { has_completed_focus = HOL_maintain_trade_neutrality } }
 		NOT = { HOL = { has_war_with = ENG } }
 		NOT = { HOL = { has_war_with = GER } }
 		HOL = {
@@ -203,6 +216,7 @@ HOL_request_allied_favors = {
 	}
 
 	visible = {
+		has_completed_focus = HOL_request_allied_favors
 	}
 }
 
@@ -216,5 +230,6 @@ HOL_bernhard = {
 	}
 
 	visible = {
+		has_completed_focus = HOL_the_only_man_in_the_dutch_government
 	}
 }

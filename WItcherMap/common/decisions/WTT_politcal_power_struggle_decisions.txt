@@ -27,7 +27,6 @@
 #606 "Anhui"
 #607 "Henan"
 #608 "Beijing"
-#613 "Shanghai"
 #614 "Hebei"
 #620 "Hubei"
 
@@ -138,11 +137,6 @@ CHI_political_power_struggle = {
 
 	#608 "Beijing"
 	WTT_build_support_in_beijing = {
-
-	}
-
-	#613 "Shanghai"
-	WTT_build_support_in_shanghai = {
 
 	}
 
@@ -339,11 +333,6 @@ CHI_political_power_struggle = {
 
 	#608 "Beijing"
 	WTT_remove_opposition_in_beijing = {
-	
-	}
-
-	#613 "Shanghai"
-	WTT_remove_opposition_in_shanghai = {
 	
 	}
 

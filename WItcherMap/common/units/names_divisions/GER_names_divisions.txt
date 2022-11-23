@@ -505,6 +505,7 @@ GER_MOT_01 =
 			has_government = neutrality 
 			has_government = democratic 
 		}
+		has_completed_focus = GER_oppose_hitler
 	}
 
 	division_types = { "motorized"  }
@@ -799,7 +800,6 @@ GER_GAR_01 =
 		609 = { "Division z.b.V. 609" }
 		610 = { "Division z.b.V. 610" }
 		612 = { "Division z.b.V. 612" }
-		613 = { "Division z.b.V. 613" }
 		615 = { "Division z.b.V. 615" }
 		955 = { "Division z.b.V. (L)" }
 		616 = { "Division z.b.V. 616" }
@@ -1008,6 +1008,7 @@ GER_MONINF_01 =
 			has_government = neutrality 
 			has_government = democratic 
 		}
+		has_completed_focus = GER_oppose_hitler
 	}
 
 	division_types = { "infantry" "mechanized" "mountaineers" "paratrooper" "marine" }
@@ -1244,6 +1245,7 @@ GER_MONMOB_01 =
 			has_government = neutrality 
 			has_government = democratic 
 		}
+		has_completed_focus = GER_oppose_hitler
 	}
 
 	division_types = {  "cavalry" "light_armor" "medium_armor" "heavy_armor" "modern_armor"  }

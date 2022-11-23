@@ -13,12 +13,14 @@ defined_text = {
 	text = {
 		trigger = {
 			original_tag = SPR
+			has_completed_focus = SPA_a_great_spain
 		}
 		localization_key = SPR_NATIONALISTS_INSTRUCTIONS
 	}
 	text = {
 		trigger = {
 			original_tag = SPR
+			has_completed_focus = SPR_the_popular_front
 		}
 		localization_key = SPR_REPUBLICANS_INSTRUCTIONS
 	}
