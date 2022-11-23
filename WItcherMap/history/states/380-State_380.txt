@@ -2,7 +2,7 @@ state={
 	id=380
 		name="STATE_381"
 														history={
-		owner = TSN
+		owner = SAP
 		buildings = 
 		{
 			infrastructure = 6
@@ -14,8 +14,7 @@ state={
 		victory_points {
 			10924 10
 		}
-		add_core_of = TSN
-		add_core_of = MTN
+		add_core_of = SAP
 	}
 	manpower=10000000
 	buildings_max_level_factor=1.000

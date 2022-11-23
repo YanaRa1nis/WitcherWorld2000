@@ -2,7 +2,7 @@ state={
 	id=384
 	name="STATE_384"
 														history={
-		owner = VER
+		owner = TSN
 		buildings = 
 		{
 			infrastructure = 6
@@ -15,11 +15,12 @@ state={
 			11075 10
 		}
 		add_core_of = VER
+		add_core_of = TSN
 	}
 	manpower=10000000
 	buildings_max_level_factor=1.000
 	state_category=town
 	provinces={
-		1127 3608 5132 11046 11060 11075 11139 11157 1328
+		1127 3608 5132 11046 11060 11075 11139 11157 1328 5535 1308 
 	}
 }

@@ -2,7 +2,7 @@ state={
 	id=402
 	name="STATE_402"
 																history={
-		owner = NOC
+		owner = TSN
 		buildings = 
 		{
 			infrastructure = 6
@@ -15,6 +15,7 @@ state={
 			10275 10
 		}
 		add_core_of = NOC
+		add_core_of = TSN
 	}
 	manpower=10000000
 	buildings_max_level_factor=1.000

@@ -2,7 +2,7 @@ state={
 	id=416
 	name="STATE_416"
 															history={
-		owner = MTN
+		owner = TSN
 		buildings = 
 		{
 			infrastructure = 6
@@ -14,12 +14,12 @@ state={
 		victory_points {
 			10325 10
 		}
-		add_core_of = MTN
+		add_core_of = TSN
 	}
 	manpower=10000000
 	buildings_max_level_factor=1.000
 	state_category=town
 	provinces={
-		359 6196 10092 10125 10139 10202 10203 10277 10325 
+		359 6196 10277 10325 
 	}
 }

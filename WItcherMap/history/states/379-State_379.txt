@@ -15,7 +15,6 @@ state={
 			11530 10
 		}
 		add_core_of = TSN
-		add_core_of = MTN
 	}
 	manpower=10000000
 	buildings_max_level_factor=1.000

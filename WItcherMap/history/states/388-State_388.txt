@@ -20,6 +20,6 @@ state={
 	buildings_max_level_factor=1.000
 	state_category=town
 	provinces={
-		1304 4750 5714 10563 10783 10800 
+		4750 5714 10563 10783
 	}
 }
