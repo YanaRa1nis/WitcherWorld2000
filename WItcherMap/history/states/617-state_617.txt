@@ -1,0 +1,11 @@
+
+state={
+	id=617
+	name="STATE_617"
+	provinces={
+		845 1947 3863 11263 11357 11368 11454 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
