@@ -22,6 +22,7 @@ state={
 	provinces={
 		2427 8429 8433 8451 8459 8474 8475 8513 
 	}
-	manpower=0
 	buildings_max_level_factor=1.000
+        manpower=1000
+        state_category = town
 }
