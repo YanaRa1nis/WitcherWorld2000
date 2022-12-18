@@ -1,0 +1,26 @@
+state={
+	id=370
+	name="STATE_370"
+						history={
+		owner = TSN
+		buildings = 
+		{
+			infrastructure = 6
+			arms_factory = 3
+			industrial_complex = 4
+			air_base = 5
+
+		}
+		victory_points {
+			798 0
+		}
+		add_core_of = TSN
+		add_core_of = NOC
+	}
+	manpower=10000000
+	buildings_max_level_factor=1.000
+	state_category=town
+	provinces={
+		798 1349 2749 3929 5099 5113 6194 10624 10890 10924 11000 
+	}
+}

@@ -3,7 +3,7 @@ state={
 	id=214
 	name="STATE_214"
 	history={
-		owner = PNR
+		owner = SDN
 		buildings = 
 		{
 			infrastructure = 6
@@ -16,6 +16,7 @@ state={
 			9444 20
 		}
 		add_core_of = PNR
+		add_core_of = SDN
 	}
 	manpower=10000000
 	buildings_max_level_factor=1.000

@@ -21,7 +21,7 @@ state={
 	buildings_max_level_factor=1.000
 	state_category=town
 	provinces={
-		9179 9221 3063 9187 9199 9155
+		9221 3063 9187 9199 9155
 	}
 
 }
