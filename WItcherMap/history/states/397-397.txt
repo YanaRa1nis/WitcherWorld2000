@@ -1,7 +1,6 @@
-
 state={
-	id=381
-	name="STATE_381"
+	id=397
+	name="STATE_397"
 				history={
 		owner = PAT
 		buildings = 
@@ -13,7 +12,7 @@ state={
 
 		}
 		victory_points {
-			1014 30
+			278 30
 		}
 		add_core_of = PAT
 	}
@@ -21,6 +20,6 @@ state={
 	buildings_max_level_factor=1.000
 	state_category=town
 	provinces={
-		1014 1772 1912 3988 4825 4901 5170 5291 10090 10107 10122 10123 10275 10289 10359 
+		278 1125 2632 5151 10191 10276 10360 10372 10402 10419 10436 
 	}
 }

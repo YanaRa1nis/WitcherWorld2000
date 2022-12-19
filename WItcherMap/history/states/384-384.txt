@@ -1,7 +1,6 @@
-
 state={
-	id=379
-	name="STATE_379"
+	id=384
+	name="STATE_384"
 		history={
 		owner = ALA
 		buildings = 
@@ -13,7 +12,7 @@ state={
 
 		}
 		victory_points {
-			1140 20
+			1127 20
 		}
 		add_core_of = ALA
 	}
@@ -21,6 +20,6 @@ state={
 	buildings_max_level_factor=1.000
 	state_category=town
 	provinces={
-		1140 3699 4342 11212 11234 11255 11280 
+		1127 3608 4330 11139 11157 11225 11292 11326 
 	}
 }

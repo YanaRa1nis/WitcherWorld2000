@@ -1,9 +1,8 @@
-
 state={
-	id=381
-	name="STATE_381"
-				history={
-		owner = PAT
+	id=406
+	name="STATE_406"
+						history={
+		owner = SKU
 		buildings = 
 		{
 			infrastructure = 6
@@ -13,14 +12,14 @@ state={
 
 		}
 		victory_points {
-			1014 30
+			150 30
 		}
-		add_core_of = PAT
+		add_core_of = SKU
 	}
 	manpower=10000000
 	buildings_max_level_factor=1.000
 	state_category=town
 	provinces={
-		1014 1772 1912 3988 4825 4901 5170 5291 10090 10107 10122 10123 10275 10289 10359 
+		150 2269 2583 3495 3738 5249 5838 7809 7864 7956 
 	}
 }

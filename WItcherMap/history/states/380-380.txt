@@ -1,10 +1,26 @@
+
 state={
 	id=380
 	name="STATE_380"
-	provinces={
-		1596 1664 1828 2572 2896 3093 3377 3727 3736 4332 4378 4669 4785 4868 4869 4993 5300 5391 6107 10625 10636 10677 10735 10790 10817 10830 10892 10904 10905 10959 10966 10974 10981 11040 11041 11060 11114 
+					history={
+		owner = SHG
+		buildings = 
+		{
+			infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 1
+			air_base = 1
+
+		}
+		victory_points {
+			3377 20
+		}
+		add_core_of = SHG
 	}
-	manpower=0
+	manpower=10000000
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
+	state_category=town
+	provinces={
+		3377 4332 4378 4785 6107 10625 10636 10790 10905 
+	}
 }
