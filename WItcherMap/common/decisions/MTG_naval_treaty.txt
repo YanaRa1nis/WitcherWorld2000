@@ -242,12 +242,6 @@ MTG_naval_treaties = {
 					
 					
 				}
-				else = {
-					has_navy_size = {
-						type = capital_ship
-						size > 15
-					}
-				}
 			}
 		}
 		cost = 50

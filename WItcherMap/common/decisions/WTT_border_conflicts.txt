@@ -74,16 +74,16 @@ CHI_border_clashes = {
 					is_owned_and_controlled_by = FROM
 					hidden_trigger = { NOT = { has_state_flag = border_incident_active } }
 					any_neighbor_state = {
-						hidden_trigger = { NOT = { has_state_flag = border_incident_active } }
-						has_ROOT_at_least_1_div_in_current_state_scope = yes
-						is_fully_controlled_by = ROOT
+						
+						
+						
 					}
 				}
 			}
 		}
 
 		ai_will_do = {
-			base = 0
+
 			modifier = {
 				
 			}
@@ -91,7 +91,7 @@ CHI_border_clashes = {
 
 		cost = 100
 
-		fire_only_once = no
+		
 
 		days_remove = @border_incident_escalation_countdown
 		days_re_enable = 180
@@ -177,7 +177,7 @@ CHI_border_clashes = {
 	#Mission for defender warning that a conflict with FROM is coming
 	WTT_border_conflict_incident_warning_defender = {
 
-		icon = border_war
+		
 
 		allowed = { always = no } #Activated from effect
 
@@ -185,10 +185,10 @@ CHI_border_clashes = {
 			hidden_trigger = { always = no }
 		}
 
-		highlight_state_targets = {
-			state = var:defender_state_temp
-			state = var:ROOT.defender_state_vs_@FROM
-		}
+		
+			
+			
+		
 
 		war_with_target_on_timeout = yes
 		ai_will_do = {
@@ -229,10 +229,10 @@ CHI_border_clashes = {
 			hidden_trigger = { always = no }
 		}
 
-		highlight_state_targets = {
-			state = var:defender_state_temp
-			state = var:ROOT.defender_state_vs_@FROM
-		}
+		
+			
+			
+		
 
 		war_with_target_on_timeout = yes
 		ai_will_do = {
@@ -277,9 +277,9 @@ CHI_border_clashes = {
 			}
 		}
 
-		highlight_state_targets = {
-			state = var:FROM.attacker_state_vs_@ROOT			
-		}
+		
+						
+		
 
 		ai_will_do = {
 			base = 0
@@ -355,10 +355,10 @@ CHI_border_clashes = {
 			var:FROM.attacker_state_vs_@ROOT = { has_border_war = no }
 		}
 		
-		highlight_state_targets = {
-			state = var:defender_state_temp
-			state = var:FROM.defender_state_vs_@ROOT
-		}
+		
+			
+			
+		
 
 		ai_will_do = {
 			base = 0
@@ -407,10 +407,10 @@ CHI_border_clashes = {
 			has_border_war_with = FROM
 		}
 
-		highlight_state_targets = {
-			state = var:FROM.attacker_state_vs_@ROOT
-			state = var:ROOT.defender_state_vs_@FROM
-		}
+		
+			
+			
+		
 
 		cost = 200
 
@@ -471,10 +471,10 @@ CHI_border_clashes = {
 			has_border_war_with = FROM
 		}
 
-		highlight_state_targets = {
-			state = var:FROM.defender_state_vs_@ROOT
-			state = var:ROOT.attacker_state_vs_@FROM
-		}
+		
+			
+			
+		
 
 		cost = 150
 
@@ -551,10 +551,10 @@ CHI_border_clashes = {
 			has_border_war_with = FROM
 		}
 
-		highlight_state_targets = {
-			state = var:FROM.attacker_state_vs_@ROOT
-			state = var:ROOT.defender_state_vs_@FROM
-		}
+		
+			
+			
+		
 
 		ai_will_do = {
 			base = 0
