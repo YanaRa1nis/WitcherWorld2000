@@ -1,0 +1,26 @@
+state={
+	id=474
+	name="STATE_474"
+	history={
+		owner = GSO
+		buildings = 
+		{
+			infrastructure = 5
+			arms_factory = 3
+			industrial_complex = 4
+			air_base = 5
+
+		}
+		victory_points {
+			9464 10
+		}
+		add_core_of = GSO
+	}
+	manpower=10000000
+	buildings_max_level_factor=1.000
+	state_category=town
+	provinces={
+		412 2902 3971 5477 9464 9483 9529 9569 9577 
+	}
+	local_supplies=0.000
+}

@@ -1,10 +1,27 @@
 state={
 	id=444
 	name="STATE_444"
+	history={
+		owner = EBN
+		buildings = 
+		{
+			infrastructure = 5
+			arms_factory = 3
+			industrial_complex = 4
+			air_base = 5
+
+		}
+		victory_points {
+			11334 10
+		}
+		add_core_of = EBN
+	}
+	manpower=10000000
+	buildings_max_level_factor=1.000
+	state_category=town
 	provinces={
 		902 1081 2816 6077 11312 11317 11334 11380 11426 11496 11506 11532 
 	}
-	manpower=0
-	buildings_max_level_factor=1.000
+
 	local_supplies=0.000
 }

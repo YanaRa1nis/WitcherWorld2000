@@ -1,0 +1,26 @@
+state={
+	id=476
+	name="STATE_476"
+	history={
+		owner = FNP
+		buildings = 
+		{
+			infrastructure = 5
+			arms_factory = 3
+			industrial_complex = 4
+			air_base = 5
+
+		}
+		victory_points {
+			9465 10
+		}
+		add_core_of = FNP
+	}
+	manpower=10000000
+	buildings_max_level_factor=1.000
+	state_category=town
+	provinces={
+		689 3026 5972 9417 9465 9484 9513 9539 
+	}
+	local_supplies=0.000
+}
