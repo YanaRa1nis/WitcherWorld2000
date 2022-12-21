@@ -1,11 +1,10 @@
-
 state={
-	id=365
-	name="STATE_365"
-
-	history={
-		owner = TSN
-		buildings = {
+	id=409
+	name="STATE_409"
+						history={
+		owner = NZR
+		buildings = 
+		{
 			infrastructure = 6
 			arms_factory = 3
 			industrial_complex = 4
@@ -13,17 +12,14 @@ state={
 
 		}
 		victory_points {
-			1281 0 
+			10548 30
 		}
-		add_core_of = TSN
-
-	}
-
-	provinces={
-		2210 2382 5632 9108 
+		add_core_of = NZR
 	}
 	manpower=10000000
 	buildings_max_level_factor=1.000
 	state_category=town
-	local_supplies=0.000
+	provinces={
+		10548 10401 10476
+	}
 }

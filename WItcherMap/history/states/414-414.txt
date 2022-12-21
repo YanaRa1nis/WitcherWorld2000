@@ -1,11 +1,10 @@
-
 state={
-	id=365
-	name="STATE_365"
-
-	history={
-		owner = TSN
-		buildings = {
+	id=414
+	name="STATE_414"
+								history={
+		owner = MTN
+		buildings = 
+		{
 			infrastructure = 6
 			arms_factory = 3
 			industrial_complex = 4
@@ -13,17 +12,14 @@ state={
 
 		}
 		victory_points {
-			1281 0 
+			3199 30
 		}
-		add_core_of = TSN
-
-	}
-
-	provinces={
-		2210 2382 5632 9108 
+		add_core_of = MTN
 	}
 	manpower=10000000
 	buildings_max_level_factor=1.000
 	state_category=town
-	local_supplies=0.000
+	provinces={
+		3199 10125 10139 10202 10203 10291 10315 10404 10486 
+	}
 }
