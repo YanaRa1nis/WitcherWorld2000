@@ -1,0 +1,26 @@
+state={
+	id=520
+	name="STATE_520"
+	history={
+		owner = ETO
+		buildings = 
+		{
+			infrastructure = 5
+			arms_factory = 3
+			industrial_complex = 4
+			air_base = 5
+
+		}
+		victory_points {
+			4007 10
+		}
+		add_core_of = ETO
+	}
+	manpower=10000000
+	buildings_max_level_factor=1.000
+	state_category=town
+	provinces={
+		1216 2041 2060 2716 3640 4007 4015 11553 11591 11601 11647 11655 11673 
+	}
+	local_supplies=0.000
+}

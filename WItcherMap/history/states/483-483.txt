@@ -1,0 +1,26 @@
+state={
+	id=483
+	name="STATE_483"
+	history={
+		owner = VND
+		buildings = 
+		{
+			infrastructure = 5
+			arms_factory = 3
+			industrial_complex = 4
+			air_base = 5
+
+		}
+		victory_points {
+			9523 30
+		}
+		add_core_of = VND
+	}
+	manpower=10000000
+	buildings_max_level_factor=1.000
+	state_category=town
+	provinces={
+		2137 4153 5310 6012 9523 9737 9795 
+	}
+	local_supplies=0.000
+}

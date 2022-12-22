@@ -238,3 +238,6 @@ VRD = "countries/Verden.txt"
 ALA = "countries/Alajattu.txt"
 SHG = "countries/Sirvat Hiyazattu.txt"
 PAT = "countries/Patidia.txt"
+VND = "countries/Venendal.txt"
+ETO = "countries/Etolia.txt"
+
