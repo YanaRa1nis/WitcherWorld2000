@@ -1,0 +1,26 @@
+state={
+	id=556
+	name="STATE_556"
+	history={
+		owner = VIC
+		buildings = 
+		{
+			infrastructure = 5
+			arms_factory = 3
+			industrial_complex = 4
+			air_base = 5
+
+		}
+		victory_points {
+			10515 10
+		}
+		add_core_of = VIC
+	}
+	manpower=10000000
+	buildings_max_level_factor=1.000
+	state_category=town
+	provinces={
+		2134 2663 5288 5374 10411 10440 10515 10540 10570 10615 10680 10718 
+	}
+	local_supplies=0.000
+}

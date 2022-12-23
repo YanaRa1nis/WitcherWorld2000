@@ -240,4 +240,5 @@ SHG = "countries/Sirvat Hiyazattu.txt"
 PAT = "countries/Patidia.txt"
 VND = "countries/Venendal.txt"
 ETO = "countries/Etolia.txt"
-
+GEM = "countries/Gemmera.txt"
+VIC = "countries/Vicovaro.txt"

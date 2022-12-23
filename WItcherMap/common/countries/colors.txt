@@ -1,5 +1,22 @@
 #reload countrycolors
 
+VND = {
+	color = rgb { 147 112 219 }
+	color_ui = rgb { 147 112 219 }
+}
+ETO = {
+	color = rgb { 255 160 122 }
+	color_ui = rgb { 255 160 122 }
+}
+GEM = {
+	color = rgb { 224 255 255 }
+	color_ui = rgb { 224 255 255 }
+}
+VIC = {
+	color = rgb { 147 112 219 }
+	color_ui = rgb { 147 112 219 }
+}
+
 MHT = {
 	color = rgb { 135 206 235 }
 	color_ui = rgb { 135 206 235 }

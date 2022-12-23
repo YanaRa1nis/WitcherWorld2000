@@ -1,0 +1,26 @@
+state={
+	id=547
+	name="STATE_547"
+	history={
+		owner = GEM
+		buildings = 
+		{
+			infrastructure = 5
+			arms_factory = 3
+			industrial_complex = 4
+			air_base = 5
+
+		}
+		victory_points {
+			5466 30
+		}
+		add_core_of = GEM
+	}
+	manpower=10000000
+	buildings_max_level_factor=1.000
+	state_category=town
+	provinces={
+		265 1275 2556 3864 5273 5466 5809 9786 10035 10085 10110 10167 10179 10243 10244 
+	}
+	local_supplies=0.000
+}
