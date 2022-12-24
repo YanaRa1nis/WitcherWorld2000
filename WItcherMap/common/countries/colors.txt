@@ -1,5 +1,30 @@
 #reload countrycolors
 
+NIF = {
+	color = rgb { 105 105 105 }
+	color_ui = rgb { 105 105 105 }
+}
+
+YML = {
+	color = rgb { 220 20 60 }
+	color_ui = rgb { 220 20 60 }
+}
+
+ROW = {
+	color = rgb { 34 139 34 }
+	color_ui = rgb { 34 139 34 }
+}
+
+MAG = {
+	color = rgb { 255 69 0 }
+	color_ui = rgb { 255 69 0 }
+}
+
+GOT = {
+	color = rgb { 218 165 32 }
+	color_ui = rgb { 218 165 32 }
+}
+
 VND = {
 	color = rgb { 147 112 219 }
 	color_ui = rgb { 147 112 219 }

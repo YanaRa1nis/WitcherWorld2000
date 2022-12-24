@@ -2,7 +2,7 @@ state={
 	id=556
 	name="STATE_556"
 	history={
-		owner = VIC
+		owner = NIF
 		buildings = 
 		{
 			infrastructure = 5
@@ -15,6 +15,7 @@ state={
 			10515 10
 		}
 		add_core_of = VIC
+		add_core_of = NIF
 	}
 	manpower=10000000
 	buildings_max_level_factor=1.000

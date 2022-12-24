@@ -1,0 +1,27 @@
+state={
+	id=604
+	name="STATE_604"
+	history={
+		owner = NIF
+		buildings = 
+		{
+			infrastructure = 5
+			arms_factory = 3
+			industrial_complex = 4
+			air_base = 5
+
+		}
+		victory_points {
+			908 10
+		}
+		add_core_of = YML
+		add_core_of = NIF
+	}
+	manpower=10000000
+	buildings_max_level_factor=1.000
+	state_category=town
+	provinces={
+		908 2760 4191 4589 5254 10672 10722 10730 10808 10836 10859 10873 10915 10929 10961 
+	}
+	local_supplies=0.000
+}
